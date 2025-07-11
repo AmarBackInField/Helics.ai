@@ -1,0 +1,31 @@
+2025-07-09 18:45:37,817 - INFO - Starting brand analysis process
+2025-07-09 18:45:37,819 - INFO - Initializing services...
+2025-07-09 18:45:40,579 - INFO - Services initialized successfully
+2025-07-09 18:45:50,570 - INFO - Created initial request for brand: nike
+2025-07-09 18:45:55,296 - INFO - Generating initial query...
+2025-07-09 18:45:59,056 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 18:46:01,318 - INFO - Generated query: top nike competitors shoes fashion brands targeting Gen Z India
+2025-07-09 18:46:05,501 - INFO - Performing Google search...
+2025-07-09 18:46:10,167 - INFO - Found 3 URLs
+2025-07-09 18:46:18,148 - INFO - Processing documents...
+2025-07-09 18:46:24,930 - WARNING - Created a chunk of size 1092, which is longer than the specified 1000
+2025-07-09 18:46:26,002 - WARNING - Created a chunk of size 1065, which is longer than the specified 1000
+2025-07-09 18:46:30,754 - WARNING - Created a chunk of size 1237, which is longer than the specified 1000
+2025-07-09 18:46:30,754 - WARNING - Created a chunk of size 7233, which is longer than the specified 1000
+2025-07-09 18:46:30,755 - WARNING - Created a chunk of size 2386, which is longer than the specified 1000
+2025-07-09 18:46:30,755 - WARNING - Created a chunk of size 1216, which is longer than the specified 1000
+2025-07-09 18:46:30,755 - WARNING - Created a chunk of size 8142, which is longer than the specified 1000
+2025-07-09 18:46:30,756 - WARNING - Created a chunk of size 5792, which is longer than the specified 1000
+2025-07-09 18:46:36,493 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 18:46:37,826 - INFO - Loading faiss with AVX2 support.
+2025-07-09 18:46:38,153 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-09 18:46:38,174 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-07-09 18:46:42,303 - INFO - Processed 61 documents
+2025-07-09 18:46:45,516 - INFO - Searching for relevant chunks...
+2025-07-09 18:46:51,753 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 18:46:53,960 - INFO - Found 6 relevant chunks
+2025-07-09 18:47:00,683 - INFO - Finding competitors...
+2025-07-09 18:47:14,604 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 18:58:40,770 - INFO - Found competitors: competitors=[CompetitorInfo(name='Adidas', relevance_score=1.0, market_position='Nike’s biggest competitor globally, strong presence in athletic shoes and apparel, generates significant sales but less than Nike.'), CompetitorInfo(name='Anta', relevance_score=0.8, market_position='Leading Chinese sportswear brand competing strongly with Nike in China, especially targeting younger consumers including Gen Z.'), CompetitorInfo(name='Li-Ning', relevance_score=0.8, market_position='Major Chinese sportswear brand rivaling Nike in the Chinese market, focuses on local consumer preferences, including Gen Z.'), CompetitorInfo(name='Asics', relevance_score=0.6, market_position='Known for performance running shoes, competitor in the athletic footwear category.'), CompetitorInfo(name='Puma', relevance_score=0.6, market_position='International sportswear brand competing with Nike in shoes and apparel, known for fashion collaborations.'), CompetitorInfo(name='Under Armour', relevance_score=0.6, market_position='Athletic apparel and footwear brand competing in North America and globally, targeting younger and athletic consumers.'), CompetitorInfo(name='Fila', relevance_score=0.5, market_position='Sportswear brand with a strong lifestyle and fashion appeal, competing in the footwear and apparel market.'), CompetitorInfo(name='New Balance', relevance_score=0.6, market_position='Athletic footwear brand competing in running and casual sneakers segments.'), CompetitorInfo(name='Skechers', relevance_score=0.5, market_position='Footwear brand competing with Nike in casual and performance shoes.'), CompetitorInfo(name='Lululemon', relevance_score=0.4, market_position='Primarily an athletic apparel brand that competes in the premium athleisure segment but less in shoes.'), CompetitorInfo(name='Athletica', relevance_score=0.3, market_position='Athletic apparel competitor, less prominent in the footwear space compared to Nike.'), CompetitorInfo(name='VF Corporation', relevance_score=0.3, market_position='Parent company of several apparel brands competing in athletic and casual wear sectors.')] total_found=12
+2025-07-09 18:59:17,582 - ERROR - Error saving data to competitors_20250709_185847.json: Object of type CompetitorList is not JSON serializable
+2025-07-09 18:59:28,685 - ERROR - Fatal error in brand analysis: Object of type CompetitorList is not JSON serializable

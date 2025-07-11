@@ -1,0 +1,60 @@
+{
+  "competitors": [
+    {
+      "name": "Adidas",
+      "relevance_score": 1.0,
+      "market_position": "Major global competitor to Nike with significant presence in India and globally; second largest sportswear company in China after Nike."
+    },
+    {
+      "name": "Anta",
+      "relevance_score": 0.8,
+      "market_position": "Leading Chinese sportswear brand benefiting from local nationalism and 'Guochao' trend; poses increasing competition in China and expanding globally."
+    },
+    {
+      "name": "Li-Ning",
+      "relevance_score": 0.8,
+      "market_position": "Strong Chinese sportswear and fashion brand growing rapidly with focus on younger consumers, leveraging Chinese fashion trends and expanding globally."
+    },
+    {
+      "name": "Puma",
+      "relevance_score": 0.7,
+      "market_position": "Established international athletic footwear and apparel brand competing directly with Nike and Adidas in various markets including India."
+    },
+    {
+      "name": "Under Armour",
+      "relevance_score": 0.6,
+      "market_position": "International sportswear brand competing with Nike in athletic apparel and footwear, with a smaller but growing presence in India."
+    },
+    {
+      "name": "Asics",
+      "relevance_score": 0.5,
+      "market_position": "Global sportswear brand specialized in running shoes, competing in niche segments with Nike, presence in India growing."
+    },
+    {
+      "name": "New Balance",
+      "relevance_score": 0.5,
+      "market_position": "International footwear brand known for running shoes and lifestyle sneakers, competing with Nike in the athletic segment."
+    },
+    {
+      "name": "Skechers",
+      "relevance_score": 0.5,
+      "market_position": "Global footwear brand focusing on athletic and casual segments, competing with Nike in volume and mid-market segments."
+    },
+    {
+      "name": "Lululemon",
+      "relevance_score": 0.4,
+      "market_position": "Premium athletic apparel brand competing mainly in apparel rather than footwear, growing awareness in India."
+    },
+    {
+      "name": "Athletica",
+      "relevance_score": 0.3,
+      "market_position": "Athletic apparel brand competing with Nike in apparel, but with significantly smaller market presence."
+    },
+    {
+      "name": "VF Corporation",
+      "relevance_score": 0.3,
+      "market_position": "Parent company owning multiple brands competing in apparel and footwear, indirectly competing with Nike in multiple segments."
+    }
+  ],
+  "total_found": 11
+}

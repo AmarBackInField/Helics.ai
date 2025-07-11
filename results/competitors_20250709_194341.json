@@ -1,0 +1,70 @@
+{
+  "competitors": [
+    {
+      "name": "Adidas",
+      "relevance_score": 1.0,
+      "market_position": "Key global competitor to Nike with significant presence in sportswear and fashion; experienced declining growth in China but remains a major player."
+    },
+    {
+      "name": "Anta",
+      "relevance_score": 0.9,
+      "market_position": "Leading Chinese sportswear brand benefiting from the 'Guochao' trend, rapidly growing and expanding globally posing significant threat to Nike in China and beyond."
+    },
+    {
+      "name": "Li-Ning",
+      "relevance_score": 0.9,
+      "market_position": "Major Chinese sportswear firm leveraging nationalistic sentiments among Gen Z; growing quickly in China and internationally, competing strongly with Nike."
+    },
+    {
+      "name": "Salomon",
+      "relevance_score": 0.7,
+      "market_position": "Chinese-owned brand growing in the sportswear segment, mentioned alongside Anta and Li-Ning; less prominent but considered a challenger brand."
+    },
+    {
+      "name": "Asics",
+      "relevance_score": 0.6,
+      "market_position": "Recognized international brand competing with Nike primarily in footwear and running shoes."
+    },
+    {
+      "name": "Puma",
+      "relevance_score": 0.6,
+      "market_position": "Global sportswear and footwear brand competing with Nike in the same segments, focusing on lifestyle and fashion markets."
+    },
+    {
+      "name": "Under Armour",
+      "relevance_score": 0.5,
+      "market_position": "Athletic apparel and footwear brand competing with Nike, more niche in apparel but relevant in sports markets."
+    },
+    {
+      "name": "Fila",
+      "relevance_score": 0.5,
+      "market_position": "Activewear and footwear brand competing within the same market segments, focused on fashion and casual sportswear."
+    },
+    {
+      "name": "New Balance",
+      "relevance_score": 0.5,
+      "market_position": "Well-known footwear and apparel brand competing in running and lifestyle segments against Nike."
+    },
+    {
+      "name": "Skechers",
+      "relevance_score": 0.4,
+      "market_position": "Global footwear brand with a strong presence in casual and sports-inspired shoes, a competitor in the broader footwear market."
+    },
+    {
+      "name": "Lululemon",
+      "relevance_score": 0.6,
+      "market_position": "Competitor primarily in athletic apparel, especially yoga and lifestyle segments, increasingly relevant in the premium activewear market."
+    },
+    {
+      "name": "Athletica",
+      "relevance_score": 0.4,
+      "market_position": "Athletic apparel brand competing with Nike in the apparel segment; smaller scale compared to global players."
+    },
+    {
+      "name": "VF Corporation",
+      "relevance_score": 0.4,
+      "market_position": "Parent company of multiple apparel and footwear brands competing indirectly with Nike in the sportswear and lifestyle categories."
+    }
+  ],
+  "total_found": 13
+}

@@ -1,0 +1,79 @@
+2025-07-09 19:57:56,419 - INFO - Starting brand analysis process
+2025-07-09 19:57:56,419 - INFO - Initializing services...
+2025-07-09 19:57:59,038 - INFO - Services initialized successfully
+2025-07-09 19:57:59,039 - INFO - Created initial request for brand: nike
+2025-07-09 19:57:59,039 - INFO - Generating initial query...
+2025-07-09 19:57:59,959 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:58:00,102 - INFO - Generated query: top nike competitors shoes fashion brands targeting genz india
+2025-07-09 19:58:00,103 - INFO - Performing Google search...
+2025-07-09 19:58:00,703 - INFO - Found 3 URLs
+2025-07-09 19:58:00,703 - INFO - Processing documents...
+2025-07-09 19:58:04,319 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 19:58:05,065 - INFO - Loading faiss with AVX2 support.
+2025-07-09 19:58:05,106 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-09 19:58:05,119 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-07-09 19:58:05,126 - INFO - Processed 19 documents
+2025-07-09 19:58:05,126 - INFO - Searching for relevant chunks...
+2025-07-09 19:58:05,638 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 19:58:05,647 - INFO - Found 6 relevant chunks
+2025-07-09 19:58:05,648 - INFO - Finding competitors...
+2025-07-09 19:58:18,630 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:58:18,643 - INFO - Found competitors: competitors=[CompetitorInfo(name='Adidas', relevance_score=1.0, market_position='Nike’s biggest competitor globally and in China; experienced declining year-on-year growth in China alongside Nike but remains a major international brand.'), CompetitorInfo(name='Anta', relevance_score=0.9, market_position="Chinese local brand posing a significant threat to Nike's market share in China; benefited from the “Guochao” trend and expanding globally."), CompetitorInfo(name='Li-Ning', relevance_score=0.9, market_position='Another strong Chinese local competitor gaining market share in China against Nike; capitalizing on nationalistic trends and growing rapidly.'), CompetitorInfo(name='Salomon', relevance_score=0.6, market_position='Chinese-owned brand mentioned alongside Anta and Li-Ning as part of the growing local competitors in China.'), CompetitorInfo(name='Asics', relevance_score=0.7, market_position='International sportswear brand competing with Nike in athletic shoes, noted as a competitor but less emphasized than Adidas.'), CompetitorInfo(name='Puma', relevance_score=0.7, market_position='Global sportswear brand competing in similar categories as Nike, recognized as a competitor in footwear and apparel.'), CompetitorInfo(name='Under Armour', relevance_score=0.7, market_position='Athletic brand competing with Nike, particularly in footwear and apparel segments.'), CompetitorInfo(name='Fila', relevance_score=0.6, market_position='Competes in sportswear and sneaker markets, included among Nike’s competitors.'), CompetitorInfo(name='New Balance', relevance_score=0.7, market_position='Sportswear and footwear brand competing with Nike in sneakers and related apparel.'), CompetitorInfo(name='Skechers', relevance_score=0.6, market_position='Competitor in the sneaker market, focusing more on casual and comfort shoes, included as a competitor.'), CompetitorInfo(name='Lululemon', relevance_score=0.5, market_position='Competes with Nike mostly in athletic apparel rather than footwear; premium positioning in athleisure.'), CompetitorInfo(name='Athleta', relevance_score=0.5, market_position="Athletic apparel brand (part of Gap Inc.) competing with Nike in women's sportswear."), CompetitorInfo(name='VF Corporation', relevance_score=0.5, market_position='Parent company of multiple apparel brands competing in athletic and casual wear; recognized as a competitor in apparel space.')] total_found=13
+2025-07-09 19:58:18,652 - INFO - Extracted competitor names: ['Adidas', 'Anta', 'Li-Ning', 'Salomon', 'Asics', 'Puma', 'Under Armour', 'Fila', 'New Balance', 'Skechers', 'Lululemon', 'Athleta', 'VF Corporation']
+2025-07-09 19:58:18,654 - INFO - Creating brand analysis requests...
+2025-07-09 19:58:18,658 - INFO - Created 14 brand analysis requests
+2025-07-09 19:58:18,659 - INFO - Generating DNA queries...
+2025-07-09 19:58:18,660 - INFO - Generating DNA query for brand 1/14: nike
+2025-07-09 19:58:19,765 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:58:19,773 - INFO - Generating DNA query for brand 2/14: Adidas
+2025-07-09 19:58:20,793 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:58:20,796 - INFO - Generating DNA query for brand 3/14: Anta
+2025-07-09 19:58:21,954 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:58:21,963 - INFO - Generating DNA query for brand 4/14: Li-Ning
+2025-07-09 19:58:22,874 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:58:22,878 - INFO - Generating DNA query for brand 5/14: Salomon
+2025-07-09 19:58:23,607 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:58:23,611 - INFO - Generating DNA query for brand 6/14: Asics
+2025-07-09 19:58:24,425 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:58:24,430 - INFO - Generating DNA query for brand 7/14: Puma
+2025-07-09 19:58:25,593 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:58:25,597 - INFO - Generating DNA query for brand 8/14: Under Armour
+2025-07-09 19:58:26,576 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:58:26,646 - INFO - Generating DNA query for brand 9/14: Fila
+2025-07-09 19:58:27,403 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:58:27,406 - INFO - Generating DNA query for brand 10/14: New Balance
+2025-07-09 19:58:28,418 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:58:28,424 - INFO - Generating DNA query for brand 11/14: Skechers
+2025-07-09 19:58:29,297 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:58:29,306 - INFO - Generating DNA query for brand 12/14: Lululemon
+2025-07-09 19:58:30,225 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:58:30,230 - INFO - Generating DNA query for brand 13/14: Athleta
+2025-07-09 19:58:31,762 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:58:31,767 - INFO - Generating DNA query for brand 14/14: VF Corporation
+2025-07-09 19:58:32,579 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:58:32,584 - INFO - Generated 14 DNA queries
+2025-07-09 19:58:32,584 - INFO - Starting brand DNA analysis...
+2025-07-09 19:58:32,585 - INFO - Analyzing brand 1/14: nike
+2025-07-09 19:58:32,587 - INFO - Searching for nike content...
+2025-07-09 19:58:33,490 - INFO - Found 3 URLs for nike
+2025-07-09 19:58:34,560 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 19:58:35,575 - INFO - Processed 26 documents for nike
+2025-07-09 19:58:35,575 - INFO - Generating enhanced queries for nike...
+2025-07-09 19:58:38,224 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:58:38,236 - INFO - Generated 5 enhanced queries for nike
+2025-07-09 19:58:38,237 - INFO - Processing enhanced query 1/5 for nike
+2025-07-09 19:58:38,625 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 19:58:38,628 - INFO - Processing enhanced query 2/5 for nike
+2025-07-09 19:58:39,030 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 19:58:39,036 - INFO - Processing enhanced query 3/5 for nike
+2025-07-09 19:58:39,466 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 19:58:39,470 - INFO - Processing enhanced query 4/5 for nike
+2025-07-09 19:58:39,957 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 19:58:39,961 - INFO - Processing enhanced query 5/5 for nike
+2025-07-09 19:58:40,858 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 19:58:40,861 - INFO - Removing duplicates from 30 chunks for nike
+2025-07-09 19:58:40,861 - INFO - After deduplication: 7 unique chunks for nike
+2025-07-09 19:58:40,862 - INFO - Analyzing DNA for nike...
+2025-07-09 19:58:53,781 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:58:53,787 - INFO - Successfully analyzed nike
+2025-07-09 20:01:31,664 - ERROR - Error analyzing brand nike: maximum recursion depth exceeded

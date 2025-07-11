@@ -1,0 +1,22 @@
+2025-07-09 19:22:31,560 - INFO - Starting brand analysis process
+2025-07-09 19:22:34,328 - INFO - Initializing services...
+2025-07-09 19:22:37,003 - INFO - Services initialized successfully
+2025-07-09 19:22:37,004 - INFO - Created initial request for brand: nike
+2025-07-09 19:22:37,004 - INFO - Generating initial query...
+2025-07-09 19:22:37,780 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:22:37,910 - INFO - Generated query: top Nike competitors shoes fashion brands targeting Gen Z India
+2025-07-09 19:22:37,911 - INFO - Performing Google search...
+2025-07-09 19:22:38,849 - INFO - Found 3 URLs
+2025-07-09 19:22:38,849 - INFO - Processing documents...
+2025-07-09 19:22:43,254 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 19:22:45,211 - INFO - Loading faiss with AVX2 support.
+2025-07-09 19:22:45,258 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-09 19:22:45,280 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-07-09 19:22:45,291 - INFO - Processed 98 documents
+2025-07-09 19:22:45,292 - INFO - Searching for relevant chunks...
+2025-07-09 19:22:46,226 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 19:22:46,235 - INFO - Found 6 relevant chunks
+2025-07-09 19:22:46,236 - INFO - Finding competitors...
+2025-07-09 19:22:53,837 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:22:53,848 - INFO - Found competitors: competitors=[CompetitorInfo(name='Anta', relevance_score=0.95, market_position="Leading Chinese sportswear brand benefiting from the 'Guochao' trend; rapidly growing and expanding globally, posing a significant threat to Nike's market share in China."), CompetitorInfo(name='Li-Ning', relevance_score=0.95, market_position="Another prominent Chinese sportswear brand riding the 'Guochao' trend; growing rapidly and expanding internationally, challenging Nike's dominance in the Chinese market."), CompetitorInfo(name='adidas', relevance_score=0.85, market_position="International sportswear brand with a strong presence in China and globally; shares have declined alongside Nike's in China but remains a top global competitor."), CompetitorInfo(name='Salomon', relevance_score=0.6, market_position='Chinese-owned brand noted as a competitor in the sportswear market; growing presence and contributes to intensifying competition against Nike.')] total_found=4
+2025-07-09 19:22:53,852 - INFO - Successfully saved data to results\competitors_20250709_192253.json

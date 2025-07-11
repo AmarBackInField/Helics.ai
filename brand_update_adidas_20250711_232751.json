@@ -1,0 +1,103 @@
+{
+  "competitive_intelligence_report": {
+    "report_id": "4fb7e118-a3a6-4d6a-920f-ddb4c8cdf8e4",
+    "generated_at": "2025-07-11T23:30:20.417341",
+    "requesting_company": "Nike",
+    "competitor_company": "Adidas",
+    "competitor_profile": {
+      "company_name": "Adidas",
+      "industry": "Unknown",
+      "headquarters": null,
+      "founded_year": null,
+      "employee_count": null,
+      "annual_revenue": null,
+      "market_cap": null,
+      "key_executives": null,
+      "primary_markets": null,
+      "main_product_lines": null
+    },
+    "updates": [
+      {
+        "update_id": "a39be921-7162-4fdb-9530-598f53d6360c",
+        "date": "2025-07-11T23:30:20.416791",
+        "update_type": "other",
+        "title": "Competitor Intelligence Update - Adidas",
+        "summary": "Raw data extracted for Adidas",
+        "detailed_description": "Net income to increase at a rate of between 16% and 18% p.a. on average 2021-2025\nTotal cash return to shareholders to be between â¬ 8 billion and â¬ 9 billion\nToday, adidas introduced its new strategy âOwn the Gameâ at a virtual Investor & Media Day. Main strategic focus of âOwn the Gameâ is to strengthen the credibility of the adidas brand, to create a unique consumer experience and to continue to expand the company's activities in the area of sustainability. The new strategy is designed to significantly increase sales and profitability as well as gain market share until 2025. More than 95% of sales growth is expected to come from the five strategic categories: Football, Running, Training, Outdoor, and Lifestyle. As building direct relationships with its target audience plays an increasingly important role, adidas will evolve its operating model to address consumers more directly. As a result, the companyâs direct-to-consumer (DTC) business is projected to account for aro...",
+        "impact_level": "medium",
+        "relevance_score": 0.5,
+        "sentiment": "neutral",
+        "geographic_scope": "global",
+        "target_audience": null,
+        "product_categories": null,
+        "marketing_metrics": null,
+        "competitive_advantages": null,
+        "market_positioning": null,
+        "sources": [
+          {
+            "url": "https://internal-analysis.com",
+            "title": "Internal Analysis",
+            "source_type": "other",
+            "publication_date": "2025-07-11T23:30:20.416791",
+            "author": null,
+            "credibility_score": 0.5
+          }
+        ],
+        "keywords": [
+          "competitor",
+          "intelligence",
+          "analysis"
+        ],
+        "estimated_budget": null,
+        "revenue_impact": null,
+        "related_updates": null,
+        "action_items": null
+      }
+    ],
+    "analytics_summary": {
+      "total_updates": 1,
+      "date_range": {
+        "start": "2025-07-11T23:30:20.416791",
+        "end": "2025-07-11T23:30:20.416791"
+      },
+      "update_type_breakdown": {
+        "other": 1
+      },
+      "sentiment_distribution": {
+        "neutral": 1
+      },
+      "geographic_distribution": {
+        "global": 1
+      },
+      "high_impact_updates_count": 0,
+      "trending_keywords": [
+        "competitor",
+        "analysis"
+      ],
+      "average_relevance_score": 0.5
+    },
+    "search_parameters": {
+      "competitor_name": "Adidas",
+      "analysis_type": "text_extraction"
+    },
+    "data_sources": [
+      "text_analysis"
+    ],
+    "confidence_level": 0.3,
+    "key_insights": [
+      "Limited data available for analysis"
+    ],
+    "strategic_recommendations": [
+      "Gather more comprehensive competitor data"
+    ],
+    "threat_assessment": "Unable to assess threat level with current data",
+    "opportunity_analysis": "Insufficient data for opportunity analysis",
+    "monitoring_keywords": [
+      "Adidas"
+    ],
+    "next_review_date": "2025-08-10T23:30:20.417253"
+  },
+  "response_time_ms": null,
+  "api_version": "v1.0",
+  "status": "success"
+}

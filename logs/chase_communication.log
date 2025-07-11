@@ -1,0 +1,25 @@
+2025-07-11 23:11:13,622 - chase_communication - ERROR - Error in extract_updates: 8 validation errors for AnswerFormat
+competitive_intelligence_report.competitor_profile.annual_revenue
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='€23.683 billion in 2024', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_parsing
+competitive_intelligence_report.updates.0.update_type
+  Input should be 'product_launch', 'marketing_campaign', 'partnership', 'sponsorship', 'price_change', 'store_opening', 'financial_news', 'executive_change', 'sustainability_initiative', 'technology_update', 'social_media_campaign', 'acquisition', 'recall', 'award' or 'other' [type=enum, input_value='strategy_announcement', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/enum
+competitive_intelligence_report.updates.0.estimated_budget
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='€1 billion', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_parsing
+competitive_intelligence_report.updates.1.update_type
+  Input should be 'product_launch', 'marketing_campaign', 'partnership', 'sponsorship', 'price_change', 'store_opening', 'financial_news', 'executive_change', 'sustainability_initiative', 'technology_update', 'social_media_campaign', 'acquisition', 'recall', 'award' or 'other' [type=enum, input_value='financial_results', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/enum
+competitive_intelligence_report.updates.2.update_type
+  Input should be 'product_launch', 'marketing_campaign', 'partnership', 'sponsorship', 'price_change', 'store_opening', 'financial_news', 'executive_change', 'sustainability_initiative', 'technology_update', 'social_media_campaign', 'acquisition', 'recall', 'award' or 'other' [type=enum, input_value='inventory_and_capex_update', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/enum
+competitive_intelligence_report.updates.2.estimated_budget
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='€540 million CAPEX', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_parsing
+competitive_intelligence_report.updates.3.update_type
+  Input should be 'product_launch', 'marketing_campaign', 'partnership', 'sponsorship', 'price_change', 'store_opening', 'financial_news', 'executive_change', 'sustainability_initiative', 'technology_update', 'social_media_campaign', 'acquisition', 'recall', 'award' or 'other' [type=enum, input_value='marketing_strategy', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/enum
+competitive_intelligence_report.updates.3.sources.0.source_type
+  Input should be 'news_article', 'press_release', 'social_media', 'blog_post', 'financial_report', 'industry_report', 'company_website', 'review_site', 'forum', 'podcast', 'video' or 'other' [type=enum, input_value='blog', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/enum

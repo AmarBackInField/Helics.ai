@@ -1,0 +1,70 @@
+{
+  "competitors": [
+    {
+      "name": "Adidas",
+      "relevance_score": 1.0,
+      "market_position": "Nike’s biggest competitor globally and in China; experienced declining year-on-year growth in China alongside Nike but remains a major international brand."
+    },
+    {
+      "name": "Anta",
+      "relevance_score": 0.9,
+      "market_position": "Chinese local brand posing a significant threat to Nike's market share in China; benefited from the “Guochao” trend and expanding globally."
+    },
+    {
+      "name": "Li-Ning",
+      "relevance_score": 0.9,
+      "market_position": "Another strong Chinese local competitor gaining market share in China against Nike; capitalizing on nationalistic trends and growing rapidly."
+    },
+    {
+      "name": "Salomon",
+      "relevance_score": 0.6,
+      "market_position": "Chinese-owned brand mentioned alongside Anta and Li-Ning as part of the growing local competitors in China."
+    },
+    {
+      "name": "Asics",
+      "relevance_score": 0.7,
+      "market_position": "International sportswear brand competing with Nike in athletic shoes, noted as a competitor but less emphasized than Adidas."
+    },
+    {
+      "name": "Puma",
+      "relevance_score": 0.7,
+      "market_position": "Global sportswear brand competing in similar categories as Nike, recognized as a competitor in footwear and apparel."
+    },
+    {
+      "name": "Under Armour",
+      "relevance_score": 0.7,
+      "market_position": "Athletic brand competing with Nike, particularly in footwear and apparel segments."
+    },
+    {
+      "name": "Fila",
+      "relevance_score": 0.6,
+      "market_position": "Competes in sportswear and sneaker markets, included among Nike’s competitors."
+    },
+    {
+      "name": "New Balance",
+      "relevance_score": 0.7,
+      "market_position": "Sportswear and footwear brand competing with Nike in sneakers and related apparel."
+    },
+    {
+      "name": "Skechers",
+      "relevance_score": 0.6,
+      "market_position": "Competitor in the sneaker market, focusing more on casual and comfort shoes, included as a competitor."
+    },
+    {
+      "name": "Lululemon",
+      "relevance_score": 0.5,
+      "market_position": "Competes with Nike mostly in athletic apparel rather than footwear; premium positioning in athleisure."
+    },
+    {
+      "name": "Athleta",
+      "relevance_score": 0.5,
+      "market_position": "Athletic apparel brand (part of Gap Inc.) competing with Nike in women's sportswear."
+    },
+    {
+      "name": "VF Corporation",
+      "relevance_score": 0.5,
+      "market_position": "Parent company of multiple apparel brands competing in athletic and casual wear; recognized as a competitor in apparel space."
+    }
+  ],
+  "total_found": 13
+}

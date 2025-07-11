@@ -1,0 +1,55 @@
+{
+  "competitors": [
+    {
+      "name": "Adidas",
+      "relevance_score": 1.0,
+      "market_position": "Major global sportswear brand; Nike's biggest competitor with significant presence in India and targeting Gen Z."
+    },
+    {
+      "name": "Anta",
+      "relevance_score": 0.8,
+      "market_position": "Leading Chinese sportswear company; growing rapidly and expanding globally, benefiting from local nationalism trends."
+    },
+    {
+      "name": "Li-Ning",
+      "relevance_score": 0.8,
+      "market_position": "Prominent Chinese sportswear brand riding the “Guochao” fashion trend with strong growth and expanding global footprint."
+    },
+    {
+      "name": "Fila",
+      "relevance_score": 0.7,
+      "market_position": "Well-known international sportswear brand competing in footwear and apparel segments relevant to Gen Z fashion."
+    },
+    {
+      "name": "Under Armour",
+      "relevance_score": 0.7,
+      "market_position": "US-based athletic apparel and footwear brand competing with Nike in the sportswear market."
+    },
+    {
+      "name": "New Balance",
+      "relevance_score": 0.7,
+      "market_position": "Global athletic brand with a solid reputation in running shoes and casual footwear targeting younger consumers."
+    },
+    {
+      "name": "Skechers",
+      "relevance_score": 0.6,
+      "market_position": "International footwear brand with a growing youth-focused collection positioned as a lifestyle and sports casual brand."
+    },
+    {
+      "name": "Lululemon",
+      "relevance_score": 0.5,
+      "market_position": "Premium athletic apparel brand specializing in athleisure and yoga wear, competing with Nike in apparel for younger consumers."
+    },
+    {
+      "name": "Athleta",
+      "relevance_score": 0.5,
+      "market_position": "Athletic apparel brand under Gap Inc., positioned in the lifestyle and wellness segment, competing in women's activewear."
+    },
+    {
+      "name": "VF Corporation",
+      "relevance_score": 0.4,
+      "market_position": "Parent company of various apparel brands competing in athletic and casual wear, offering indirect competition to Nike."
+    }
+  ],
+  "total_found": 10
+}

@@ -1,0 +1,55 @@
+2025-07-09 19:37:43,452 - INFO - Starting brand analysis process
+2025-07-09 19:37:46,956 - INFO - Initializing services...
+2025-07-09 19:37:51,207 - INFO - Services initialized successfully
+2025-07-09 19:37:51,209 - INFO - Created initial request for brand: nike
+2025-07-09 19:37:51,210 - INFO - Generating initial query...
+2025-07-09 19:37:52,252 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:37:52,383 - INFO - Generated query: top Nike competitors shoes fashion brands targeting Gen Z India
+2025-07-09 19:37:52,384 - INFO - Performing Google search...
+2025-07-09 19:37:53,237 - INFO - Found 3 URLs
+2025-07-09 19:37:53,238 - INFO - Processing documents...
+2025-07-09 19:37:59,254 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 19:37:59,875 - INFO - Loading faiss with AVX2 support.
+2025-07-09 19:37:59,913 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-09 19:37:59,933 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-07-09 19:37:59,944 - INFO - Processed 54 documents
+2025-07-09 19:37:59,944 - INFO - Searching for relevant chunks...
+2025-07-09 19:38:00,392 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 19:38:00,475 - INFO - Found 6 relevant chunks
+2025-07-09 19:38:00,476 - INFO - Finding competitors...
+2025-07-09 19:38:12,681 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:38:12,691 - INFO - Found competitors: competitors=[CompetitorInfo(name='Adidas', relevance_score=1.0, market_position='Major global competitor to Nike with significant presence in India and globally; second largest sportswear company in China after Nike.'), CompetitorInfo(name='Anta', relevance_score=0.8, market_position="Leading Chinese sportswear brand benefiting from local nationalism and 'Guochao' trend; poses increasing competition in China and expanding globally."), CompetitorInfo(name='Li-Ning', relevance_score=0.8, market_position='Strong Chinese sportswear and fashion brand growing rapidly with focus on younger consumers, leveraging Chinese fashion trends and expanding globally.'), CompetitorInfo(name='Puma', relevance_score=0.7, market_position='Established international athletic footwear and apparel brand competing directly with Nike and Adidas in various markets including India.'), CompetitorInfo(name='Under Armour', relevance_score=0.6, market_position='International sportswear brand competing with Nike in athletic apparel and footwear, with a smaller but growing presence in India.'), CompetitorInfo(name='Asics', relevance_score=0.5, market_position='Global sportswear brand specialized in running shoes, competing in niche segments with Nike, presence in India growing.'), CompetitorInfo(name='New Balance', relevance_score=0.5, market_position='International footwear brand known for running shoes and lifestyle sneakers, competing with Nike in the athletic segment.'), CompetitorInfo(name='Skechers', relevance_score=0.5, market_position='Global footwear brand focusing on athletic and casual segments, competing with Nike in volume and mid-market segments.'), CompetitorInfo(name='Lululemon', relevance_score=0.4, market_position='Premium athletic apparel brand competing mainly in apparel rather than footwear, growing awareness in India.'), CompetitorInfo(name='Athletica', relevance_score=0.3, market_position='Athletic apparel brand competing with Nike in apparel, but with significantly smaller market presence.'), CompetitorInfo(name='VF Corporation', relevance_score=0.3, market_position='Parent company owning multiple brands competing in apparel and footwear, indirectly competing with Nike in multiple segments.')] total_found=11
+2025-07-09 19:38:12,696 - INFO - Successfully saved data to results\competitors_20250709_193812.json
+2025-07-09 19:38:22,456 - INFO - Extracted competitor names: ['Adidas', 'Anta', 'Li-Ning', 'Puma', 'Under Armour', 'Asics', 'New Balance', 'Skechers', 'Lululemon', 'Athletica', 'VF Corporation']
+2025-07-09 19:38:22,457 - INFO - Creating brand analysis requests...
+2025-07-09 19:38:22,460 - INFO - Created 12 brand analysis requests
+2025-07-09 19:38:37,168 - INFO - Generating DNA queries...
+2025-07-09 19:38:37,173 - INFO - Generating DNA query for brand 1/12: nike
+2025-07-09 19:38:38,075 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:38:49,246 - INFO - Generating DNA query for brand 2/12: Adidas
+2025-07-09 19:38:50,367 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:38:50,373 - INFO - Generating DNA query for brand 3/12: Anta
+2025-07-09 19:38:53,300 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:38:53,307 - INFO - Generating DNA query for brand 4/12: Li-Ning
+2025-07-09 19:38:54,000 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:38:54,006 - INFO - Generating DNA query for brand 5/12: Puma
+2025-07-09 19:38:56,797 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:38:56,806 - INFO - Generating DNA query for brand 6/12: Under Armour
+2025-07-09 19:38:57,633 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:38:57,637 - INFO - Generating DNA query for brand 7/12: Asics
+2025-07-09 19:38:58,460 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:38:58,466 - INFO - Generating DNA query for brand 8/12: New Balance
+2025-07-09 19:39:00,193 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:39:00,198 - INFO - Generating DNA query for brand 9/12: Skechers
+2025-07-09 19:39:00,969 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:39:00,972 - INFO - Generating DNA query for brand 10/12: Lululemon
+2025-07-09 19:39:01,780 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:39:01,785 - INFO - Generating DNA query for brand 11/12: Athletica
+2025-07-09 19:39:02,674 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:39:02,686 - INFO - Generating DNA query for brand 12/12: VF Corporation
+2025-07-09 19:39:04,289 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:40:06,867 - INFO - Generated 12 DNA queries
+2025-07-09 19:40:06,869 - INFO - Starting brand DNA analysis...
+2025-07-09 19:40:06,869 - INFO - Analyzing brand 1/12: nike
+2025-07-09 19:40:06,870 - INFO - Searching for nike content...
+2025-07-09 19:40:07,790 - INFO - Found 3 URLs for nike

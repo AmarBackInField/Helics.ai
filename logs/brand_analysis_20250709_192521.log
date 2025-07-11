@@ -1,0 +1,41 @@
+2025-07-09 19:25:21,552 - INFO - Starting brand analysis process
+2025-07-09 19:26:08,544 - INFO - Initializing services...
+2025-07-09 19:26:11,254 - INFO - Services initialized successfully
+2025-07-09 19:26:11,254 - INFO - Created initial request for brand: nike
+2025-07-09 19:26:11,254 - INFO - Generating initial query...
+2025-07-09 19:26:12,465 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:26:12,593 - INFO - Generated query: top Nike competitors shoes fashion brands targeting Gen Z India
+2025-07-09 19:26:12,594 - INFO - Performing Google search...
+2025-07-09 19:26:13,232 - INFO - Found 3 URLs
+2025-07-09 19:26:13,233 - INFO - Processing documents...
+2025-07-09 19:26:18,341 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 19:26:19,836 - INFO - Loading faiss with AVX2 support.
+2025-07-09 19:26:19,877 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-09 19:26:19,899 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-07-09 19:26:19,915 - INFO - Processed 98 documents
+2025-07-09 19:26:19,915 - INFO - Searching for relevant chunks...
+2025-07-09 19:26:20,689 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 19:26:20,703 - INFO - Found 6 relevant chunks
+2025-07-09 19:26:20,703 - INFO - Finding competitors...
+2025-07-09 19:26:26,728 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:26:26,737 - INFO - Found competitors: competitors=[CompetitorInfo(name='Anta', relevance_score=0.9, market_position="Leading Chinese sportswear brand benefiting from the 'Guochao' trend; significant competitor in China with expanding global presence."), CompetitorInfo(name='Li-Ning', relevance_score=0.9, market_position='Prominent Chinese sportswear brand capitalizing on nationalistic consumer preferences; key competitor to Nike in China and expanding internationally.'), CompetitorInfo(name='adidas', relevance_score=0.8, market_position='International sportswear brand competing with Nike in China and globally, with a strong presence in lifestyle and athletic wear.'), CompetitorInfo(name='Salomon', relevance_score=0.4, market_position='Chinese-owned brand mentioned as a growing competitor in sportswear, though less prominent than Anta and Li-Ning.')] total_found=4
+2025-07-09 19:26:26,742 - INFO - Successfully saved data to results\competitors_20250709_192626.json
+2025-07-09 19:27:38,157 - INFO - Extracted competitor names: ['Anta', 'Li-Ning', 'adidas', 'Salomon']
+2025-07-09 19:27:40,374 - INFO - Creating brand analysis requests...
+2025-07-09 19:27:54,376 - INFO - Created 5 brand analysis requests
+2025-07-09 19:28:03,566 - INFO - Generating DNA queries...
+2025-07-09 19:28:08,551 - INFO - Generating DNA query for brand 1/5: nike
+2025-07-09 19:28:24,315 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:31:13,985 - INFO - Generating DNA query for brand 2/5: Anta
+2025-07-09 19:31:20,430 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:31:27,760 - INFO - Generating DNA query for brand 3/5: Li-Ning
+2025-07-09 19:31:29,125 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:31:32,422 - INFO - Generating DNA query for brand 4/5: adidas
+2025-07-09 19:31:34,125 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:31:36,729 - INFO - Generating DNA query for brand 5/5: Salomon
+2025-07-09 19:31:39,369 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:31:44,266 - INFO - Generated 5 DNA queries
+2025-07-09 19:32:47,291 - INFO - Starting brand DNA analysis...
+2025-07-09 19:32:57,854 - INFO - Analyzing brand 1/5: nike
+2025-07-09 19:33:05,536 - INFO - Searching for nike content...
+2025-07-09 19:33:14,661 - INFO - Found 3 URLs for nike

@@ -1,0 +1,55 @@
+{
+  "competitors": [
+    {
+      "name": "Adidas",
+      "relevance_score": 1.0,
+      "market_position": "Nike's biggest competitor globally and in India, with a strong presence in the athletic footwear and apparel market; second largest in terms of sales."
+    },
+    {
+      "name": "Anta",
+      "relevance_score": 0.8,
+      "market_position": "Chinese sportswear brand competing strongly with Nike in the Asia-Pacific region, including targeting Gen Z consumers."
+    },
+    {
+      "name": "Li-Ning",
+      "relevance_score": 0.8,
+      "market_position": "Another major Chinese sportswear brand competing with Nike in the Chinese market and among Gen Z consumers via hyper-localized strategies."
+    },
+    {
+      "name": "Asics",
+      "relevance_score": 0.7,
+      "market_position": "Competitor in the athletic footwear segment, known for technical running shoes; smaller market share than Nike but recognized in the performance category."
+    },
+    {
+      "name": "Puma",
+      "relevance_score": 0.7,
+      "market_position": "International sportswear brand competing with Nike in footwear and fashion segments, including targeting younger demographics."
+    },
+    {
+      "name": "Under Armour",
+      "relevance_score": 0.7,
+      "market_position": "Athletic apparel and footwear brand competing with Nike, with growing presence in performance and lifestyle categories."
+    },
+    {
+      "name": "Fila",
+      "relevance_score": 0.6,
+      "market_position": "Sportswear brand competing in footwear and fashion segments, known for a retro and streetwear appeal attractive to younger consumers."
+    },
+    {
+      "name": "New Balance",
+      "relevance_score": 0.7,
+      "market_position": "International footwear brand competing in running and lifestyle categories, increasingly popular among Gen Z for its fashion styling."
+    },
+    {
+      "name": "Skechers",
+      "relevance_score": 0.6,
+      "market_position": "Global footwear brand competing primarily on comfort and casual fashion, appealing to broader age groups including younger buyers."
+    },
+    {
+      "name": "Lululemon",
+      "relevance_score": 0.6,
+      "market_position": "Primarily an athletic apparel brand competing with Nike in premium yoga and fitness wear, with increasing appeal to Gen Z in urban markets."
+    }
+  ],
+  "total_found": 10
+}

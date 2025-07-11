@@ -1,0 +1,32 @@
+2025-07-09 19:02:58,213 - INFO - Starting brand analysis process
+2025-07-09 19:02:58,214 - INFO - Initializing services...
+2025-07-09 19:03:01,092 - INFO - Services initialized successfully
+2025-07-09 19:03:01,093 - INFO - Created initial request for brand: nike
+2025-07-09 19:03:01,093 - INFO - Generating initial query...
+2025-07-09 19:03:02,497 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:03:02,639 - INFO - Generated query: top nike competitors shoes fashion brands targeting Gen Z India
+2025-07-09 19:03:02,639 - INFO - Performing Google search...
+2025-07-09 19:03:03,677 - INFO - Found 3 URLs
+2025-07-09 19:03:03,678 - INFO - Processing documents...
+2025-07-09 19:03:04,853 - WARNING - Created a chunk of size 1092, which is longer than the specified 1000
+2025-07-09 19:03:05,639 - WARNING - Created a chunk of size 1065, which is longer than the specified 1000
+2025-07-09 19:03:09,718 - WARNING - Created a chunk of size 1237, which is longer than the specified 1000
+2025-07-09 19:03:09,719 - WARNING - Created a chunk of size 7233, which is longer than the specified 1000
+2025-07-09 19:03:09,721 - WARNING - Created a chunk of size 2386, which is longer than the specified 1000
+2025-07-09 19:03:09,721 - WARNING - Created a chunk of size 1216, which is longer than the specified 1000
+2025-07-09 19:03:09,722 - WARNING - Created a chunk of size 8142, which is longer than the specified 1000
+2025-07-09 19:03:09,722 - WARNING - Created a chunk of size 5792, which is longer than the specified 1000
+2025-07-09 19:03:11,623 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 19:03:13,097 - INFO - Loading faiss with AVX2 support.
+2025-07-09 19:03:13,242 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-09 19:03:13,290 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-07-09 19:03:13,432 - INFO - Processed 61 documents
+2025-07-09 19:03:13,434 - INFO - Searching for relevant chunks...
+2025-07-09 19:03:14,800 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 19:03:14,827 - INFO - Found 6 relevant chunks
+2025-07-09 19:03:14,828 - INFO - Finding competitors...
+2025-07-09 19:03:27,706 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 19:03:27,720 - INFO - Found competitors: competitors=[CompetitorInfo(name='Adidas', relevance_score=1.0, market_position="Nike's biggest competitor globally and in India, with a strong presence in the athletic footwear and apparel market; second largest in terms of sales."), CompetitorInfo(name='Anta', relevance_score=0.8, market_position='Chinese sportswear brand competing strongly with Nike in the Asia-Pacific region, including targeting Gen Z consumers.'), CompetitorInfo(name='Li-Ning', relevance_score=0.8, market_position='Another major Chinese sportswear brand competing with Nike in the Chinese market and among Gen Z consumers via hyper-localized strategies.'), CompetitorInfo(name='Asics', relevance_score=0.7, market_position='Competitor in the athletic footwear segment, known for technical running shoes; smaller market share than Nike but recognized in the performance category.'), CompetitorInfo(name='Puma', relevance_score=0.7, market_position='International sportswear brand competing with Nike in footwear and fashion segments, including targeting younger demographics.'), CompetitorInfo(name='Under Armour', relevance_score=0.7, market_position='Athletic apparel and footwear brand competing with Nike, with growing presence in performance and lifestyle categories.'), CompetitorInfo(name='Fila', relevance_score=0.6, market_position='Sportswear brand competing in footwear and fashion segments, known for a retro and streetwear appeal attractive to younger consumers.'), CompetitorInfo(name='New Balance', relevance_score=0.7, market_position='International footwear brand competing in running and lifestyle categories, increasingly popular among Gen Z for its fashion styling.'), CompetitorInfo(name='Skechers', relevance_score=0.6, market_position='Global footwear brand competing primarily on comfort and casual fashion, appealing to broader age groups including younger buyers.'), CompetitorInfo(name='Lululemon', relevance_score=0.6, market_position='Primarily an athletic apparel brand competing with Nike in premium yoga and fitness wear, with increasing appeal to Gen Z in urban markets.')] total_found=10
+2025-07-09 19:04:49,508 - INFO - Successfully saved data to results\competitors_20250709_190327.json
+2025-07-09 19:05:23,719 - INFO - Extracted competitor names: []
+2025-07-09 19:05:23,720 - INFO - Creating brand analysis requests...

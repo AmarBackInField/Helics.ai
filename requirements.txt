@@ -1,0 +1,13 @@
+langchain-openai
+langchain-core
+langchain-community
+pandas
+requests
+beautifulsoup4
+python-dotenv
+fastapi
+pydantic
+tqdm
+backoff
+uvicorn
+faiss-cpu

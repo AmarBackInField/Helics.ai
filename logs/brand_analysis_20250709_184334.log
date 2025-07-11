@@ -1,0 +1,7 @@
+2025-07-09 18:43:36,099 - INFO - Starting brand analysis process
+2025-07-09 18:43:41,911 - INFO - Initializing services...
+2025-07-09 18:43:48,423 - INFO - Services initialized successfully
+2025-07-09 18:44:01,530 - ERROR - Fatal error in brand analysis: 1 validation error for BrandAnalysisRequest
+audience
+  Input should be 'genz', 'millennials', 'genx', 'boomers' or 'all' [type=enum, input_value='GenZ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/enum

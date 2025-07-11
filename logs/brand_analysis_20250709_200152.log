@@ -1,0 +1,267 @@
+2025-07-09 20:01:52,166 - INFO - Starting brand analysis process
+2025-07-09 20:01:52,166 - INFO - Initializing services...
+2025-07-09 20:01:54,804 - INFO - Services initialized successfully
+2025-07-09 20:01:54,804 - INFO - Created initial request for brand: nike
+2025-07-09 20:01:54,805 - INFO - Generating initial query...
+2025-07-09 20:01:55,546 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:01:55,671 - INFO - Generated query: top nike competitors shoes fashion brands targeting Gen Z India
+2025-07-09 20:01:55,671 - INFO - Performing Google search...
+2025-07-09 20:01:56,276 - INFO - Found 3 URLs
+2025-07-09 20:01:56,277 - INFO - Processing documents...
+2025-07-09 20:01:59,273 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:02:00,419 - INFO - Loading faiss with AVX2 support.
+2025-07-09 20:02:00,462 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-09 20:02:00,476 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-07-09 20:02:00,484 - INFO - Processed 45 documents
+2025-07-09 20:02:00,485 - INFO - Searching for relevant chunks...
+2025-07-09 20:02:01,608 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:02:01,618 - INFO - Found 6 relevant chunks
+2025-07-09 20:02:01,619 - INFO - Finding competitors...
+2025-07-09 20:02:20,823 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:02:20,827 - INFO - Found competitors: competitors=[CompetitorInfo(name='Adidas', relevance_score=1.0, market_position="Major global sportswear brand; Nike's biggest competitor with significant presence in India and targeting Gen Z."), CompetitorInfo(name='Anta', relevance_score=0.8, market_position='Leading Chinese sportswear company; growing rapidly and expanding globally, benefiting from local nationalism trends.'), CompetitorInfo(name='Li-Ning', relevance_score=0.8, market_position='Prominent Chinese sportswear brand riding the “Guochao” fashion trend with strong growth and expanding global footprint.'), CompetitorInfo(name='Fila', relevance_score=0.7, market_position='Well-known international sportswear brand competing in footwear and apparel segments relevant to Gen Z fashion.'), CompetitorInfo(name='Under Armour', relevance_score=0.7, market_position='US-based athletic apparel and footwear brand competing with Nike in the sportswear market.'), CompetitorInfo(name='New Balance', relevance_score=0.7, market_position='Global athletic brand with a solid reputation in running shoes and casual footwear targeting younger consumers.'), CompetitorInfo(name='Skechers', relevance_score=0.6, market_position='International footwear brand with a growing youth-focused collection positioned as a lifestyle and sports casual brand.'), CompetitorInfo(name='Lululemon', relevance_score=0.5, market_position='Premium athletic apparel brand specializing in athleisure and yoga wear, competing with Nike in apparel for younger consumers.'), CompetitorInfo(name='Athleta', relevance_score=0.5, market_position="Athletic apparel brand under Gap Inc., positioned in the lifestyle and wellness segment, competing in women's activewear."), CompetitorInfo(name='VF Corporation', relevance_score=0.4, market_position='Parent company of various apparel brands competing in athletic and casual wear, offering indirect competition to Nike.')] total_found=10
+2025-07-09 20:02:20,830 - INFO - Extracted competitor names: ['Adidas', 'Anta', 'Li-Ning', 'Fila', 'Under Armour', 'New Balance', 'Skechers', 'Lululemon', 'Athleta', 'VF Corporation']
+2025-07-09 20:02:20,830 - INFO - Creating brand analysis requests...
+2025-07-09 20:02:20,831 - INFO - Created 11 brand analysis requests
+2025-07-09 20:02:20,831 - INFO - Generating DNA queries...
+2025-07-09 20:02:20,831 - INFO - Generating DNA query for brand 1/11: nike
+2025-07-09 20:02:21,809 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:02:21,814 - INFO - Generating DNA query for brand 2/11: Adidas
+2025-07-09 20:02:22,825 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:02:22,830 - INFO - Generating DNA query for brand 3/11: Anta
+2025-07-09 20:02:23,698 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:02:23,702 - INFO - Generating DNA query for brand 4/11: Li-Ning
+2025-07-09 20:02:24,650 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:02:24,655 - INFO - Generating DNA query for brand 5/11: Fila
+2025-07-09 20:02:25,952 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:02:25,959 - INFO - Generating DNA query for brand 6/11: Under Armour
+2025-07-09 20:02:27,140 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:02:27,189 - INFO - Generating DNA query for brand 7/11: New Balance
+2025-07-09 20:02:28,852 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:02:28,857 - INFO - Generating DNA query for brand 8/11: Skechers
+2025-07-09 20:02:30,047 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:02:30,053 - INFO - Generating DNA query for brand 9/11: Lululemon
+2025-07-09 20:02:31,017 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:02:31,022 - INFO - Generating DNA query for brand 10/11: Athleta
+2025-07-09 20:02:32,179 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:02:32,184 - INFO - Generating DNA query for brand 11/11: VF Corporation
+2025-07-09 20:02:33,016 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:02:33,027 - INFO - Generated 11 DNA queries
+2025-07-09 20:02:33,027 - INFO - Starting brand DNA analysis...
+2025-07-09 20:02:33,027 - INFO - Analyzing brand 1/11: nike
+2025-07-09 20:02:33,028 - INFO - Searching for nike content...
+2025-07-09 20:02:33,836 - INFO - Found 3 URLs for nike
+2025-07-09 20:02:35,371 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:02:36,459 - INFO - Processed 35 documents for nike
+2025-07-09 20:02:36,460 - INFO - Generating enhanced queries for nike...
+2025-07-09 20:02:40,505 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:02:40,515 - INFO - Generated 5 enhanced queries for nike
+2025-07-09 20:02:40,516 - INFO - Processing enhanced query 1/5 for nike
+2025-07-09 20:02:41,610 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:02:41,614 - INFO - Processing enhanced query 2/5 for nike
+2025-07-09 20:02:42,030 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:02:42,036 - INFO - Processing enhanced query 3/5 for nike
+2025-07-09 20:02:42,519 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:02:42,523 - INFO - Processing enhanced query 4/5 for nike
+2025-07-09 20:02:43,039 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:02:43,044 - INFO - Processing enhanced query 5/5 for nike
+2025-07-09 20:02:43,482 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:02:43,487 - INFO - Removing duplicates from 30 chunks for nike
+2025-07-09 20:02:43,488 - INFO - After deduplication: 12 unique chunks for nike
+2025-07-09 20:02:43,489 - INFO - Analyzing DNA for nike...
+2025-07-09 20:03:00,051 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:03:00,057 - INFO - Successfully analyzed nike
+2025-07-09 20:03:17,115 - INFO - Analyzing brand 2/11: Adidas
+2025-07-09 20:03:17,116 - INFO - Searching for Adidas content...
+2025-07-09 20:03:17,939 - INFO - Found 3 URLs for Adidas
+2025-07-09 20:03:21,194 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:03:22,452 - INFO - Processed 48 documents for Adidas
+2025-07-09 20:03:22,452 - INFO - Generating enhanced queries for Adidas...
+2025-07-09 20:03:27,145 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:03:27,149 - INFO - Generated 5 enhanced queries for Adidas
+2025-07-09 20:03:27,149 - INFO - Processing enhanced query 1/5 for Adidas
+2025-07-09 20:03:27,870 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:03:27,872 - INFO - Processing enhanced query 2/5 for Adidas
+2025-07-09 20:03:28,336 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:03:28,341 - INFO - Processing enhanced query 3/5 for Adidas
+2025-07-09 20:03:28,747 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:03:28,752 - INFO - Processing enhanced query 4/5 for Adidas
+2025-07-09 20:03:29,236 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:03:29,244 - INFO - Processing enhanced query 5/5 for Adidas
+2025-07-09 20:03:29,683 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:03:29,721 - INFO - Removing duplicates from 30 chunks for Adidas
+2025-07-09 20:03:29,722 - INFO - After deduplication: 10 unique chunks for Adidas
+2025-07-09 20:03:29,723 - INFO - Analyzing DNA for Adidas...
+2025-07-09 20:04:04,376 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:04:04,388 - INFO - Successfully analyzed Adidas
+2025-07-09 20:04:04,400 - INFO - Analyzing brand 3/11: Anta
+2025-07-09 20:04:04,401 - INFO - Searching for Anta content...
+2025-07-09 20:04:04,772 - INFO - Found 3 URLs for Anta
+2025-07-09 20:04:06,786 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:04:07,365 - INFO - Processed 10 documents for Anta
+2025-07-09 20:04:07,366 - INFO - Generating enhanced queries for Anta...
+2025-07-09 20:04:10,832 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:04:10,848 - INFO - Generated 5 enhanced queries for Anta
+2025-07-09 20:04:10,849 - INFO - Processing enhanced query 1/5 for Anta
+2025-07-09 20:04:11,263 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:04:11,270 - INFO - Processing enhanced query 2/5 for Anta
+2025-07-09 20:04:11,719 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:04:11,727 - INFO - Processing enhanced query 3/5 for Anta
+2025-07-09 20:04:12,252 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:04:12,259 - INFO - Processing enhanced query 4/5 for Anta
+2025-07-09 20:04:12,624 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:04:12,632 - INFO - Processing enhanced query 5/5 for Anta
+2025-07-09 20:04:13,062 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:04:13,070 - INFO - Removing duplicates from 30 chunks for Anta
+2025-07-09 20:04:13,073 - INFO - After deduplication: 11 unique chunks for Anta
+2025-07-09 20:04:13,074 - INFO - Analyzing DNA for Anta...
+2025-07-09 20:04:30,881 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:04:30,892 - INFO - Successfully analyzed Anta
+2025-07-09 20:04:30,905 - INFO - Analyzing brand 4/11: Li-Ning
+2025-07-09 20:04:30,906 - INFO - Searching for Li-Ning content...
+2025-07-09 20:04:31,701 - INFO - Found 3 URLs for Li-Ning
+2025-07-09 20:04:32,935 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:04:33,507 - INFO - Processed 10 documents for Li-Ning
+2025-07-09 20:04:33,508 - INFO - Generating enhanced queries for Li-Ning...
+2025-07-09 20:04:41,389 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:04:41,398 - INFO - Generated 5 enhanced queries for Li-Ning
+2025-07-09 20:04:41,399 - INFO - Processing enhanced query 1/5 for Li-Ning
+2025-07-09 20:04:42,151 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:04:42,159 - INFO - Processing enhanced query 2/5 for Li-Ning
+2025-07-09 20:04:42,555 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:04:42,566 - INFO - Processing enhanced query 3/5 for Li-Ning
+2025-07-09 20:04:42,992 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:04:43,001 - INFO - Processing enhanced query 4/5 for Li-Ning
+2025-07-09 20:04:43,390 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:04:43,398 - INFO - Processing enhanced query 5/5 for Li-Ning
+2025-07-09 20:04:43,851 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:04:43,858 - INFO - Removing duplicates from 30 chunks for Li-Ning
+2025-07-09 20:04:43,860 - INFO - After deduplication: 9 unique chunks for Li-Ning
+2025-07-09 20:04:43,861 - INFO - Analyzing DNA for Li-Ning...
+2025-07-09 20:04:58,814 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:04:58,826 - INFO - Successfully analyzed Li-Ning
+2025-07-09 20:04:58,838 - INFO - Analyzing brand 5/11: Fila
+2025-07-09 20:04:58,839 - INFO - Searching for Fila content...
+2025-07-09 20:04:59,430 - INFO - Found 3 URLs for Fila
+2025-07-09 20:05:02,146 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:05:03,246 - INFO - Processed 33 documents for Fila
+2025-07-09 20:05:03,246 - INFO - Generating enhanced queries for Fila...
+2025-07-09 20:05:08,461 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:05:08,512 - INFO - Generated 5 enhanced queries for Fila
+2025-07-09 20:05:08,513 - INFO - Processing enhanced query 1/5 for Fila
+2025-07-09 20:05:08,922 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:05:08,930 - INFO - Processing enhanced query 2/5 for Fila
+2025-07-09 20:05:09,354 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:05:09,362 - INFO - Processing enhanced query 3/5 for Fila
+2025-07-09 20:05:09,893 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:05:09,896 - INFO - Processing enhanced query 4/5 for Fila
+2025-07-09 20:05:10,331 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:05:10,335 - INFO - Processing enhanced query 5/5 for Fila
+2025-07-09 20:05:10,743 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:05:10,746 - INFO - Removing duplicates from 30 chunks for Fila
+2025-07-09 20:05:10,746 - INFO - After deduplication: 9 unique chunks for Fila
+2025-07-09 20:05:10,746 - INFO - Analyzing DNA for Fila...
+2025-07-09 20:05:26,014 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:05:26,027 - INFO - Successfully analyzed Fila
+2025-07-09 20:05:26,046 - INFO - Analyzing brand 6/11: Under Armour
+2025-07-09 20:05:26,047 - INFO - Searching for Under Armour content...
+2025-07-09 20:05:26,798 - INFO - Found 3 URLs for Under Armour
+2025-07-09 20:05:29,521 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:05:30,828 - INFO - Processed 50 documents for Under Armour
+2025-07-09 20:05:30,829 - INFO - Generating enhanced queries for Under Armour...
+2025-07-09 20:05:33,753 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:05:33,760 - INFO - Generated 5 enhanced queries for Under Armour
+2025-07-09 20:05:33,761 - INFO - Processing enhanced query 1/5 for Under Armour
+2025-07-09 20:05:34,109 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:05:34,116 - INFO - Processing enhanced query 2/5 for Under Armour
+2025-07-09 20:05:34,630 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:05:34,633 - INFO - Processing enhanced query 3/5 for Under Armour
+2025-07-09 20:05:35,186 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:05:35,320 - INFO - Processing enhanced query 4/5 for Under Armour
+2025-07-09 20:05:35,804 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:05:35,810 - INFO - Processing enhanced query 5/5 for Under Armour
+2025-07-09 20:05:36,175 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:05:36,179 - INFO - Removing duplicates from 30 chunks for Under Armour
+2025-07-09 20:05:36,179 - INFO - After deduplication: 8 unique chunks for Under Armour
+2025-07-09 20:05:36,180 - INFO - Analyzing DNA for Under Armour...
+2025-07-09 20:05:49,209 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:05:49,220 - INFO - Successfully analyzed Under Armour
+2025-07-09 20:05:49,242 - INFO - Analyzing brand 7/11: New Balance
+2025-07-09 20:05:49,243 - INFO - Searching for New Balance content...
+2025-07-09 20:05:50,155 - INFO - Found 3 URLs for New Balance
+2025-07-09 20:05:52,172 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:05:53,084 - INFO - Processed 24 documents for New Balance
+2025-07-09 20:05:53,085 - INFO - Generating enhanced queries for New Balance...
+2025-07-09 20:05:56,794 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:05:56,805 - INFO - Generated 5 enhanced queries for New Balance
+2025-07-09 20:05:56,806 - INFO - Processing enhanced query 1/5 for New Balance
+2025-07-09 20:05:57,213 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:05:57,219 - INFO - Processing enhanced query 2/5 for New Balance
+2025-07-09 20:05:57,671 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:05:57,676 - INFO - Processing enhanced query 3/5 for New Balance
+2025-07-09 20:05:58,125 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:05:58,134 - INFO - Processing enhanced query 4/5 for New Balance
+2025-07-09 20:05:58,561 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:05:58,569 - INFO - Processing enhanced query 5/5 for New Balance
+2025-07-09 20:05:58,961 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:05:58,970 - INFO - Removing duplicates from 30 chunks for New Balance
+2025-07-09 20:05:58,979 - INFO - After deduplication: 11 unique chunks for New Balance
+2025-07-09 20:05:58,980 - INFO - Analyzing DNA for New Balance...
+2025-07-09 20:06:18,576 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:06:18,584 - INFO - Successfully analyzed New Balance
+2025-07-09 20:06:18,593 - INFO - Analyzing brand 8/11: Skechers
+2025-07-09 20:06:18,595 - INFO - Searching for Skechers content...
+2025-07-09 20:06:19,136 - INFO - Found 3 URLs for Skechers
+2025-07-09 20:06:20,344 - ERROR - Error analyzing brand Skechers: list index out of range
+2025-07-09 20:06:20,346 - INFO - Analyzing brand 9/11: Lululemon
+2025-07-09 20:06:20,347 - INFO - Searching for Lululemon content...
+2025-07-09 20:06:20,829 - INFO - Found 3 URLs for Lululemon
+2025-07-09 20:06:22,247 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:06:23,384 - INFO - Processed 26 documents for Lululemon
+2025-07-09 20:06:23,386 - INFO - Generating enhanced queries for Lululemon...
+2025-07-09 20:06:26,707 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:06:26,714 - INFO - Generated 5 enhanced queries for Lululemon
+2025-07-09 20:06:26,714 - INFO - Processing enhanced query 1/5 for Lululemon
+2025-07-09 20:06:28,883 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:06:28,892 - INFO - Processing enhanced query 2/5 for Lululemon
+2025-07-09 20:06:29,305 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:06:29,309 - INFO - Processing enhanced query 3/5 for Lululemon
+2025-07-09 20:06:29,676 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:06:29,690 - INFO - Processing enhanced query 4/5 for Lululemon
+2025-07-09 20:06:30,075 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:06:30,080 - INFO - Processing enhanced query 5/5 for Lululemon
+2025-07-09 20:06:30,526 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:06:30,530 - INFO - Removing duplicates from 30 chunks for Lululemon
+2025-07-09 20:06:30,531 - INFO - After deduplication: 8 unique chunks for Lululemon
+2025-07-09 20:06:30,532 - INFO - Analyzing DNA for Lululemon...
+2025-07-09 20:06:44,881 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:06:44,892 - INFO - Successfully analyzed Lululemon
+2025-07-09 20:06:44,903 - INFO - Analyzing brand 10/11: Athleta
+2025-07-09 20:06:44,904 - INFO - Searching for Athleta content...
+2025-07-09 20:06:45,333 - INFO - Found 3 URLs for Athleta
+2025-07-09 20:07:17,876 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 400 Bad Request"
+2025-07-09 20:07:17,888 - ERROR - Error analyzing brand Athleta: Error code: 400 - {'error': {'message': 'Requested 356696 tokens, max 300000 tokens per request', 'type': 'max_tokens_per_request', 'param': None, 'code': 'max_tokens_per_request'}}
+2025-07-09 20:07:17,891 - INFO - Analyzing brand 11/11: VF Corporation
+2025-07-09 20:07:17,892 - INFO - Searching for VF Corporation content...
+2025-07-09 20:07:18,626 - INFO - Found 3 URLs for VF Corporation
+2025-07-09 20:07:21,198 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:07:21,807 - INFO - Processed 9 documents for VF Corporation
+2025-07-09 20:07:21,809 - INFO - Generating enhanced queries for VF Corporation...
+2025-07-09 20:07:24,952 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:07:24,957 - INFO - Generated 5 enhanced queries for VF Corporation
+2025-07-09 20:07:24,958 - INFO - Processing enhanced query 1/5 for VF Corporation
+2025-07-09 20:07:25,784 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:07:25,792 - INFO - Processing enhanced query 2/5 for VF Corporation
+2025-07-09 20:07:26,191 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:07:26,199 - INFO - Processing enhanced query 3/5 for VF Corporation
+2025-07-09 20:07:26,569 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:07:26,580 - INFO - Processing enhanced query 4/5 for VF Corporation
+2025-07-09 20:07:27,001 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:07:27,008 - INFO - Processing enhanced query 5/5 for VF Corporation
+2025-07-09 20:07:27,420 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-09 20:07:27,428 - INFO - Removing duplicates from 30 chunks for VF Corporation
+2025-07-09 20:07:27,432 - INFO - After deduplication: 9 unique chunks for VF Corporation
+2025-07-09 20:07:27,434 - INFO - Analyzing DNA for VF Corporation...
+2025-07-09 20:07:41,979 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:07:41,991 - INFO - Successfully analyzed VF Corporation
+2025-07-09 20:07:42,009 - INFO - Saving complete analysis results...
+2025-07-09 20:07:42,095 - ERROR - Fatal error in brand analysis: maximum recursion depth exceeded

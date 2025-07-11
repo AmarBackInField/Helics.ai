@@ -1,0 +1,70 @@
+{
+  "competitors": [
+    {
+      "name": "Adidas",
+      "relevance_score": 1.0,
+      "market_position": "Leading global sportswear brand; Nike’s biggest competitor; shares significant market presence in India and globally; experiencing some growth challenges in China but remains a top contender."
+    },
+    {
+      "name": "Anta",
+      "relevance_score": 0.8,
+      "market_position": "Chinese sportswear brand rapidly growing and benefiting from nationalistic trends (‘Guochao’) in China; posing significant competition to Nike’s market share especially in China and expanding globally."
+    },
+    {
+      "name": "Li-Ning",
+      "relevance_score": 0.8,
+      "market_position": "Another prominent Chinese sportswear brand growing rapidly by capitalizing on ‘Guochao’ trends; strong competitor to Nike in China with global expansion ambitions."
+    },
+    {
+      "name": "Salomon",
+      "relevance_score": 0.6,
+      "market_position": "Acquired by Anta, known for outdoor and sportswear segments; part of the growing Chinese sportswear ecosystem challenging Nike’s dominance in the region."
+    },
+    {
+      "name": "Asics",
+      "relevance_score": 0.7,
+      "market_position": "Global sportswear and footwear brand competing in running and athletic footwear segments; recognized competitor to Nike in the athletic shoes market."
+    },
+    {
+      "name": "Puma",
+      "relevance_score": 0.7,
+      "market_position": "International athletic and casual footwear and apparel brand; actively competing for market share in India and globally among younger consumers."
+    },
+    {
+      "name": "Under Armour",
+      "relevance_score": 0.7,
+      "market_position": "US-based sports apparel and footwear brand; competitor focusing on performancewear and targeting similar age demographics as Nike."
+    },
+    {
+      "name": "Fila",
+      "relevance_score": 0.6,
+      "market_position": "Sportswear brand competing primarily in lifestyle and athleisure; recognized player in Asian markets including India."
+    },
+    {
+      "name": "New Balance",
+      "relevance_score": 0.7,
+      "market_position": "Global athletic footwear and apparel brand; competitor in running shoes and lifestyle segments targeting Gen Z consumers."
+    },
+    {
+      "name": "Skechers",
+      "relevance_score": 0.6,
+      "market_position": "Global footwear brand competing in casual and athletic footwear; increasingly targeting younger consumers including Gen Z."
+    },
+    {
+      "name": "Lululemon",
+      "relevance_score": 0.5,
+      "market_position": "Premium athletic apparel brand focused on athleisure and performancewear; more focused on apparel than footwear, but considered a competitor in overall sportswear space."
+    },
+    {
+      "name": "Athletica",
+      "relevance_score": 0.5,
+      "market_position": "Athletic apparel brand competing primarily in activewear; smaller scale competitor relative to Nike."
+    },
+    {
+      "name": "VF Corporation",
+      "relevance_score": 0.5,
+      "market_position": "Parent company of multiple apparel brands (including The North Face, Vans); competitor in broader apparel and lifestyle markets impacting Nike’s share."
+    }
+  ],
+  "total_found": 13
+}

@@ -1,0 +1,25 @@
+{
+  "competitors": [
+    {
+      "name": "Anta",
+      "relevance_score": 0.95,
+      "market_position": "Leading Chinese sportswear brand benefiting from the 'Guochao' trend; rapidly growing and expanding globally, posing a significant threat to Nike's market share in China."
+    },
+    {
+      "name": "Li-Ning",
+      "relevance_score": 0.95,
+      "market_position": "Another prominent Chinese sportswear brand riding the 'Guochao' trend; growing rapidly and expanding internationally, challenging Nike's dominance in the Chinese market."
+    },
+    {
+      "name": "adidas",
+      "relevance_score": 0.85,
+      "market_position": "International sportswear brand with a strong presence in China and globally; shares have declined alongside Nike's in China but remains a top global competitor."
+    },
+    {
+      "name": "Salomon",
+      "relevance_score": 0.6,
+      "market_position": "Chinese-owned brand noted as a competitor in the sportswear market; growing presence and contributes to intensifying competition against Nike."
+    }
+  ],
+  "total_found": 4
+}

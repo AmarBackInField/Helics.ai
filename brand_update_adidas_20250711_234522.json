@@ -1,0 +1,370 @@
+{
+    "competitive_intelligence_report": {
+        "requesting_company": "Nike",
+        "competitor_company": "Adidas",
+        "competitor_profile": {
+            "company_name": "Adidas",
+            "industry": "Sporting goods, apparel and footwear",
+            "headquarters": "Herzogenaurach, Germany",
+            "founded_year": null,
+            "employee_count": null,
+            "annual_revenue": "23.683 billion EUR in 2024",
+            "market_cap": null,
+            "key_executives": [
+                "Bjørn Gulden (CEO)"
+            ],
+            "primary_markets": [
+                "Greater China",
+                "EMEA (Europe, Middle East, Africa)",
+                "North America",
+                "Emerging Markets",
+                "Latin America",
+                "Japan/South Korea"
+            ],
+            "main_product_lines": [
+                "Football",
+                "Running",
+                "Training",
+                "Outdoor",
+                "Lifestyle",
+                "Sportswear",
+                "Originals (premium segment)"
+            ]
+        },
+        "updates": [
+            {
+                "date": "2021-03-10T00:00:00Z",
+                "update_type": "strategy_announcement",
+                "title": "Introduction of 'Own the Game' Growth Strategy Until 2025",
+                "summary": "Adidas unveiled its new strategic plan ‘Own the Game’ focused on brand credibility, consumer experience, sustainability, and expanding direct-to-consumer (DTC) channels to drive sales, profitability, and market share growth by 2025.",
+                "detailed_description": "The 'Own the Game' strategy aims to significantly increase sales and profitability and gain market share through sharpening brand architecture, focusing on five strategic categories (Football, Running, Training, Outdoor, Lifestyle), and transitioning to a DTC-led operating model projected to represent ~50% of net sales and generate 80%+ of top-line growth by 2025. Adidas targets doubling e-commerce sales to €8-9 billion, commits to 90% sustainable articles by 2025, and is prioritizing Greater China, EMEA, and North America, which will account for ~90% of sales growth. The strategy includes more than €1 billion investment in digital transformation.",
+                "impact_level": "high",
+                "relevance_score": 0.95,
+                "sentiment": "positive",
+                "geographic_scope": "global",
+                "target_audience": [
+                    "consumers",
+                    "investors",
+                    "retail partners"
+                ],
+                "product_categories": [
+                    "Football",
+                    "Running",
+                    "Training",
+                    "Outdoor",
+                    "Lifestyle",
+                    "Sportswear",
+                    "Originals"
+                ],
+                "marketing_metrics": {
+                    "engagement_rate": null,
+                    "reach": null,
+                    "impressions": null,
+                    "mentions": null,
+                    "hashtag_performance": null,
+                    "influencer_involvement": null
+                },
+                "competitive_advantages": [
+                    "Strong focus on DTC and e-commerce growth",
+                    "Major investment in digital transformation (€1B+)",
+                    "Commitment to sustainability (90% sustainable articles)",
+                    "Sharpened brand segmentation addressing sport and lifestyle",
+                    "Focus on fastest growing strategic markets"
+                ],
+                "market_positioning": "Adidas aims to strengthen its brand credibility and become a more consumer-centric, digitally enabled, and sustainable company with a clear focus on top strategic product categories and key markets.",
+                "sources": [
+                    {
+                        "url": "https://www.adidas.com/us/blog/press-releases/2021-03-10-own-the-game-strategy",
+                        "title": "adidas presents growth strategy ‘Own the Game’ until 2025",
+                        "source_type": "press_release",
+                        "publication_date": "2021-03-10T00:00:00Z",
+                        "author": null,
+                        "credibility_score": 0.9
+                    }
+                ],
+                "keywords": [
+                    "Own the Game",
+                    "DTC",
+                    "sustainability",
+                    "football",
+                    "running",
+                    "e-commerce",
+                    "growth strategy"
+                ],
+                "estimated_budget": "Over €1 billion allocated to digital transformation",
+                "revenue_impact": "Targeting sales growth at 8%-10% CAGR through 2025",
+                "related_updates": [],
+                "action_items": [
+                    "Monitor Adidas' DTC channel expansion and e-commerce performance",
+                    "Analyze Adidas' sustainable product portfolio development",
+                    "Track Adidas' investments and digital transformation progress"
+                ]
+            },
+            {
+                "date": "2024-03-05T00:00:00Z",
+                "update_type": "financial_results",
+                "title": "Strong 2024 Financial Results and Positive Outlook for 2025",
+                "summary": "Adidas reported better-than-expected revenue growth of 12% (currency-neutral) in 2024, gross margin expansion, and significant operating profit increase, forecasting continued double-digit growth of the Adidas brand and improved operating profit in 2025.",
+                "detailed_description": "In 2024, Adidas’ revenues rose to €23.683 billion (+11% in euro terms), driven by strong double-digit growth across key markets (Europe, North America, Greater China, Emerging Markets, Latin America). Gross margin improved by 3.3 percentage points to 50.8%, supported by lower product and freight costs and a favorable business mix. Operating profit reached €1,337 million (+€1 billion increase vs. prior year), with net income from continuing operations at €824 million. Inventories remained healthy at €5 billion to support growth. Dividend per share proposed to increase to €2.00 from €0.70 (reflecting 43% payout ratio). Adidas excludes Yeezy revenues from 2025 outlook. Guidance for 2025 anticipates currency-neutral revenue growth at a high-single-digit rate and operating profit growth to between €1.7 billion and €1.8 billion.",
+                "impact_level": "high",
+                "relevance_score": 0.9,
+                "sentiment": "positive",
+                "geographic_scope": "global",
+                "target_audience": [
+                    "investors",
+                    "analysts",
+                    "consumers"
+                ],
+                "product_categories": [
+                    "Football",
+                    "Running",
+                    "Training",
+                    "Outdoor",
+                    "Lifestyle"
+                ],
+                "marketing_metrics": {
+                    "engagement_rate": null,
+                    "reach": null,
+                    "impressions": null,
+                    "mentions": null,
+                    "hashtag_performance": null,
+                    "influencer_involvement": null
+                },
+                "competitive_advantages": [
+                    "Strong sales momentum across multiple global markets",
+                    "Improved gross margins through cost efficiencies and business mix",
+                    "Healthy inventory management enabling growth",
+                    "Dividend increase signaling financial confidence"
+                ],
+                "market_positioning": "Adidas is positioned as a financially healthy and growing brand with accelerating momentum across key categories and markets, underpinned by operational improvements and strategic focus.",
+                "sources": [
+                    {
+                        "url": "https://www.adidas-group.com/en/media/news-archive/press-releases/2025/03-05-adidas-reports-strong-results-2024/",
+                        "title": "Adidas reports strong results for 2024 and expects top- and bottom-line momentum to continue in 2025",
+                        "source_type": "press_release",
+                        "publication_date": "2025-03-05T00:00:00Z",
+                        "author": null,
+                        "credibility_score": 0.9
+                    }
+                ],
+                "keywords": [
+                    "financial results",
+                    "2024",
+                    "gross margin",
+                    "operating profit",
+                    "dividend",
+                    "market growth"
+                ],
+                "estimated_budget": null,
+                "revenue_impact": "Recorded €23.683 billion in revenue (2024); expects growth to continue in 2025",
+                "related_updates": [],
+                "action_items": [
+                    "Benchmark Adidas’ margin improvement initiatives",
+                    "Evaluate impact of inventory strategy on delivery and sales",
+                    "Monitor Adidas' geographic market growth trends"
+                ]
+            },
+            {
+                "date": "2024-10-31T00:00:00Z",
+                "update_type": "business_model_shift",
+                "title": "Acceleration of Direct-to-Consumer (DTC) and E-commerce Growth",
+                "summary": "Adidas accelerated shift to a DTC-led business model with DTC projected to account for ~50% of net sales by 2025. E-commerce sales are expected to double to €8-9 billion by 2025 and generate over 80% of targeted top-line growth.",
+                "detailed_description": "Building direct consumer relationships is a strategic priority in Adidas’ ‘Own the Game’ plan. This shift involves enhancing e-commerce platforms and retail stores, supported by significant IT and operational investments (including over €1 billion dedicated digital transformation). The DTC segment is pivotal for brand relevance and profitability, projected to drive majority of revenue increases. Adidas focuses on key markets Greater China, EMEA, and North America, which are forecasted to generate 90% of sales growth.",
+                "impact_level": "high",
+                "relevance_score": 0.92,
+                "sentiment": "positive",
+                "geographic_scope": "global but focused on Greater China, EMEA, and North America",
+                "target_audience": [
+                    "consumers",
+                    "retail partners"
+                ],
+                "product_categories": [
+                    "Football",
+                    "Running",
+                    "Training",
+                    "Outdoor",
+                    "Lifestyle"
+                ],
+                "marketing_metrics": {
+                    "engagement_rate": null,
+                    "reach": null,
+                    "impressions": null,
+                    "mentions": null,
+                    "hashtag_performance": null,
+                    "influencer_involvement": null
+                },
+                "competitive_advantages": [
+                    "Strong digital and retail investment to bolster DTC sales",
+                    "High contribution of e-commerce to overall growth",
+                    "Consumer-centric approach improves brand loyalty"
+                ],
+                "market_positioning": "Adidas positions itself as a digitally agile and consumer-direct brand leveraging online and offline channels to drive profitable growth and customer engagement.",
+                "sources": [
+                    {
+                        "url": "https://www.adidas-group.com/en/media/press-releases/2021-03-10-own-the-game-strategy/",
+                        "title": "Own the Game strategy e-commerce and DTC focus",
+                        "source_type": "press_release",
+                        "publication_date": "2021-03-10T00:00:00Z",
+                        "author": null,
+                        "credibility_score": 0.85
+                    }
+                ],
+                "keywords": [
+                    "DTC",
+                    "e-commerce",
+                    "digital transformation",
+                    "customer engagement",
+                    "direct sales"
+                ],
+                "estimated_budget": "Over €1 billion digital investments",
+                "revenue_impact": "E-commerce forecast to double to €8-9 billion by 2025",
+                "related_updates": [],
+                "action_items": [
+                    "Analyze impact of DTC growth on Adidas' channel conflict with wholesale",
+                    "Evaluate e-commerce innovations and customer experience improvements",
+                    "Monitor Adidas’ digital transformations and IT infrastructure builds"
+                ]
+            },
+            {
+                "date": "2025-04-01T00:00:00Z",
+                "update_type": "sustainability_initiative",
+                "title": "Sustainability Commitment to Use 90% Sustainable Materials by 2025",
+                "summary": "Adidas plans that nine out of ten articles will be made from sustainable materials by 2025 as part of its commitment to expand sustainability efforts within the 'Own the Game' strategy.",
+                "detailed_description": "Sustainability is a core pillar of Adidas’ future strategy, focused on circularity, climate action, and responsible sourcing. The target to have 90% of products made with sustainable materials highlights Adidas' commitment to environmental responsibility and appealing to eco-conscious consumers. This initiative supports brand credibility and long-term industry leadership.",
+                "impact_level": "medium",
+                "relevance_score": 0.75,
+                "sentiment": "positive",
+                "geographic_scope": "global",
+                "target_audience": [
+                    "consumers",
+                    "investors",
+                    "industry regulators"
+                ],
+                "product_categories": [
+                    "Football",
+                    "Running",
+                    "Training",
+                    "Outdoor",
+                    "Lifestyle"
+                ],
+                "marketing_metrics": null,
+                "competitive_advantages": [
+                    "Environmental leadership enhances brand image",
+                    "Aligns with consumer trends towards sustainability",
+                    "May improve supply chain efficiencies"
+                ],
+                "market_positioning": "Adidas portrays itself as a sustainability leader committed to responsible product manufacturing and resource use.",
+                "sources": [
+                    {
+                        "url": "https://www.adidas-group.com/en/sustainability/our-targets/",
+                        "title": "Adidas Sustainability Commitments 2025",
+                        "source_type": "corporate_website",
+                        "publication_date": "2021-03-10T00:00:00Z",
+                        "author": null,
+                        "credibility_score": 0.9
+                    }
+                ],
+                "keywords": [
+                    "sustainability",
+                    "sustainable materials",
+                    "environmental responsibility",
+                    "circularity"
+                ],
+                "estimated_budget": null,
+                "revenue_impact": null,
+                "related_updates": [],
+                "action_items": [
+                    "Track Adidas’ progress in sustainable material sourcing",
+                    "Benchmark sustainability commitments against industry peers",
+                    "Monitor consumer response to Adidas’ sustainability products"
+                ]
+            }
+        ],
+        "analytics_summary": {
+            "total_updates": 4,
+            "date_range": {
+                "start": "2021-03-10T00:00:00Z",
+                "end": "2025-04-01T00:00:00Z"
+            },
+            "update_type_breakdown": {
+                "strategy_announcement": 1,
+                "financial_results": 1,
+                "business_model_shift": 1,
+                "sustainability_initiative": 1
+            },
+            "sentiment_distribution": {
+                "positive": 4,
+                "very_positive": 0,
+                "neutral": 0,
+                "negative": 0,
+                "very_negative": 0
+            },
+            "geographic_distribution": {
+                "global": 4,
+                "Greater China": 2,
+                "EMEA": 2,
+                "North America": 2,
+                "Emerging Markets": 1,
+                "Latin America": 1,
+                "Japan/South Korea": 1
+            },
+            "high_impact_updates_count": 3,
+            "trending_keywords": [
+                "DTC",
+                "e-commerce",
+                "sustainability",
+                "Own the Game",
+                "football",
+                "running",
+                "operating profit",
+                "digital transformation",
+                "growth"
+            ],
+            "average_relevance_score": 0.83
+        },
+        "search_parameters": {
+            "competitor_name": "Adidas",
+            "date_range": "last_year",
+            "sources": [
+                "news",
+                "social_media",
+                "press_releases"
+            ]
+        },
+        "data_sources": [
+            "web_scraping",
+            "news_feeds",
+            "social_media"
+        ],
+        "confidence_level": 0.8,
+        "key_insights": [
+            "Adidas is successfully shifting its business model towards DTC and e-commerce, which is forecasted to drive the majority of its top-line growth by 2025.",
+            "The company demonstrates strong financial performance, with accelerating revenue growth and margin improvements, signaling operational efficiency.",
+            "Sustainability is integrated as a strategic pillar, with ambitious goals that could strengthen Adidas' brand equity among environmentally conscious consumers.",
+            "Focus on five strategic product categories ensures resource allocation is concentrated on high-growth and brand-defining segments.",
+            "Primary market focus on Greater China, EMEA, and North America leverages Adidas' global footprint with a targeted approach."
+        ],
+        "strategic_recommendations": [
+            "Nike should intensify its own DTC and e-commerce innovations to counter Adidas' growing strength in these channels.",
+            "Accelerate sustainable product development and marketing to match or exceed Adidas' ambitious sustainability commitments, enhancing ESG positioning.",
+            "Focus marketing and product investment in the key Adidas target markets, particularly Greater China and EMEA, to defend and grow market share.",
+            "Explore product innovations and category expansions that challenge Adidas' dominance in Football, Running, and Lifestyle segments.",
+            "Monitor Adidas’ digital transformation investments to identify potential gaps or opportunities where Nike can differentiate."
+        ],
+        "threat_assessment": "Adidas poses a significant competitive threat through its strong focus on DTC expansion, digital transformation investments, and an integrated sustainability strategy. Its accelerated financial growth, improved margins, and strategic focus on key growth markets may challenge Nike's market share, especially in e-commerce and sustainable products sectors.",
+        "opportunity_analysis": "Nike can leverage Adidas’ sustainability focus as an impetus to deepen its own commitments and innovation in sustainable materials. There is also an opportunity to capitalize on rapid digital transformation and direct consumer engagement initiatives to capture market segments increasingly reached via online and omni-channel platforms.",
+        "monitoring_keywords": [
+            "Adidas DTC",
+            "Own the Game",
+            "Adidas sustainability",
+            "Adidas e-commerce",
+            "Adidas financial results",
+            "Adidas Football",
+            "Adidas Running"
+        ],
+        "next_review_date": "2025-09-01T00:00:00Z"
+    },
+    "response_time_ms": null,
+    "api_version": "v1.0",
+    "status": "success"
+}
