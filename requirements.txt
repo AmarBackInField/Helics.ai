@@ -11,3 +11,4 @@ tqdm
 backoff
 uvicorn
 faiss-cpu
+flask
