@@ -1,0 +1,369 @@
+{
+    "competitive_intelligence_report": {
+        "requesting_company": "Nike",
+        "competitor_company": "Adidas",
+        "competitor_profile": {
+            "company_name": "Adidas",
+            "industry": "Sporting goods/apparel and footwear",
+            "headquarters": "Herzogenaurach, Germany",
+            "founded_year": null,
+            "employee_count": 60000,
+            "annual_revenue": "€23.7 billion (2024)",
+            "market_cap": null,
+            "key_executives": [
+                "CEO Bjørn Gulden",
+                "Former CEO Kasper Rorsted"
+            ],
+            "primary_markets": [
+                "Greater China",
+                "Europe, Middle East, Africa (EMEA)",
+                "North America",
+                "Emerging Markets",
+                "Latin America",
+                "Japan/South Korea"
+            ],
+            "main_product_lines": [
+                "Football",
+                "Running",
+                "Training",
+                "Outdoor",
+                "Lifestyle"
+            ]
+        },
+        "updates": [
+            {
+                "date": "2021-03-10T00:00:00Z",
+                "update_type": "strategy_announcement",
+                "title": "Launch of ‘Own the Game’ Growth Strategy Until 2025",
+                "summary": "Adidas unveiled the ‘Own the Game’ strategy focused on brand credibility, consumer experience, sustainability, and expansion in strategic product categories to drive growth and profitability through 2025.",
+                "detailed_description": "The ‘Own the Game’ strategy aims to significantly increase sales, profitability, and market share until 2025. It prioritizes strengthening Adidas’ brand credibility, improving consumer experience, and sustainability efforts such as making 90% of products from sustainable materials. The strategy expects 95% of sales growth from Football, Running, Training, Outdoor, and Lifestyle categories. A shift to a DTC-led business model is projected, with DTC accounting for approximately 50% of net sales by 2025 and over 80% of top-line growth. E-commerce sales are forecasted to double to between €8 billion and €9 billion. Digital transformation is supported by >€1 billion in investments. Key geographic focus includes Greater China, EMEA, and North America, expected to drive 90% of sales growth.",
+                "impact_level": "high",
+                "relevance_score": 0.95,
+                "sentiment": "positive",
+                "geographic_scope": "global",
+                "target_audience": [
+                    "investors",
+                    "consumers",
+                    "retailers"
+                ],
+                "product_categories": [
+                    "Football",
+                    "Running",
+                    "Training",
+                    "Outdoor",
+                    "Lifestyle"
+                ],
+                "marketing_metrics": {
+                    "engagement_rate": null,
+                    "reach": null,
+                    "impressions": null,
+                    "mentions": null,
+                    "hashtag_performance": null,
+                    "influencer_involvement": null
+                },
+                "competitive_advantages": [
+                    "Strong brand credibility focus",
+                    "Large scale sustainability commitment",
+                    "Shift to DTC and doubling e-commerce sales",
+                    "Investment of >€1 billion in digital transformation"
+                ],
+                "market_positioning": "Adidas positions itself as a premium brand with a strong focus on sustainability, consumer experience, and digital innovation to outgrow competitors.",
+                "sources": [
+                    {
+                        "url": "https://www.adidas-group.com/en/media/news-archive/press-releases/2021/adidas-presents-growth-strategy-own-the-game-until-2025/",
+                        "title": "adidas presents growth strategy ‘Own the Game’ until 2025",
+                        "source_type": "press_release",
+                        "publication_date": "2021-03-10T00:00:00Z",
+                        "author": null,
+                        "credibility_score": 0.9
+                    }
+                ],
+                "keywords": [
+                    "growth strategy",
+                    "Own the Game",
+                    "sustainability",
+                    "DTC",
+                    "e-commerce",
+                    "market expansion",
+                    "brand credibility"
+                ],
+                "estimated_budget": "€1+ billion digital transformation",
+                "revenue_impact": null,
+                "related_updates": [],
+                "action_items": [
+                    "Monitor impact of DTC and e-commerce expansion",
+                    "Assess Adidas’ progress in sustainable product adoption",
+                    "Benchmark digital transformation investments"
+                ]
+            },
+            {
+                "date": "2025-03-05T00:00:00Z",
+                "update_type": "financial_results",
+                "title": "Strong 2024 Results and Positive Outlook for 2025",
+                "summary": "Adidas reported currency-neutral sales growth of 12% in 2024, exceeding prior guidance, with strong brand momentum and improved profitability. Outlook for 2025 expects continued growth and operating profit increase.",
+                "detailed_description": "In 2024, Adidas’ currency-neutral revenues increased 12% to €23.7 billion, driven by a 13% increase in the adidas brand. The gross margin improved by 3.3 percentage points to 50.8%. Operating profit rose by more than €1 billion to €1.337 billion. Net income from continuing operations was €824 million. Inventories were healthy at €5.0 billion to support double-digit brand growth. The fourth quarter saw a 19% currency-neutral revenue increase and operating profit turned positive at €57 million versus a loss the previous year. The sale of remaining Yeezy inventory generated approx. €650 million in 2024, with no inclusion of Yeezy revenues or profits expected in 2025. Outlook for 2025 anticipates currency-neutral revenue increases at a high-single-digit rate and operating profit of €1.7-1.8 billion.",
+                "impact_level": "high",
+                "relevance_score": 0.9,
+                "sentiment": "positive",
+                "geographic_scope": "global",
+                "target_audience": [
+                    "investors",
+                    "industry analysts"
+                ],
+                "product_categories": [
+                    "Football",
+                    "Running",
+                    "Training",
+                    "Outdoor",
+                    "Lifestyle"
+                ],
+                "marketing_metrics": null,
+                "competitive_advantages": [
+                    "Strong margin recovery and profitability growth",
+                    "Brand momentum despite ending Yeezy partnership",
+                    "Healthy inventory management supporting growth"
+                ],
+                "market_positioning": "Adidas is reinforcing its market leadership with strong financial performance and expects continued growth even without Yeezy revenues.",
+                "sources": [
+                    {
+                        "url": "https://www.adidas-group.com/en/media/news-archive/press-releases/2025/adidas-reports-strong-results-for-2024-and-expects-top-and-bottom-line-momentum-to-continue-in-2025/",
+                        "title": "adidas reports strong results for 2024 and expects top- and bottom-line momentum to continue in 2025",
+                        "source_type": "press_release",
+                        "publication_date": "2025-03-05T00:00:00Z",
+                        "author": null,
+                        "credibility_score": 0.9
+                    }
+                ],
+                "keywords": [
+                    "financial results",
+                    "2024 sales growth",
+                    "operating profit",
+                    "Yeezy exit"
+                ],
+                "estimated_budget": null,
+                "revenue_impact": "€23.7 billion total revenue in 2024",
+                "related_updates": [],
+                "action_items": [
+                    "Review Adidas’ margin improvement strategies for applicability",
+                    "Analyze impact of Yeezy revenue removal on Adidas’ profitability",
+                    "Monitor inventory trends supporting double-digit growth"
+                ]
+            },
+            {
+                "date": "2024-07-30T00:00:00Z",
+                "update_type": "brand_crisis",
+                "title": "Bella Hadid Adidas Advertising Campaign Controversy",
+                "summary": "Adidas faced criticism from Israel over an advertising campaign featuring Bella Hadid linked to the 1972 Munich Olympics, leading to campaign removal.",
+                "detailed_description": "A campaign for Adidas’ SL72 shoes featuring supermodel Bella Hadid was criticized for unintentional connections to the 1972 Munich Olympics, causing public backlash in Israel. Adidas apologized and dropped the advert following criticism.",
+                "impact_level": "medium",
+                "relevance_score": 0.6,
+                "sentiment": "negative",
+                "geographic_scope": "regional (Israel/global awareness)",
+                "target_audience": [
+                    "consumers",
+                    "media"
+                ],
+                "product_categories": [
+                    "Lifestyle",
+                    "Footwear"
+                ],
+                "marketing_metrics": null,
+                "competitive_advantages": [],
+                "market_positioning": "Reacted quickly to crisis by apologizing and withdrawing ad, mitigating reputational damage.",
+                "sources": [
+                    {
+                        "url": "https://www.cbsnews.com/news/adidas-bella-hadid-1972-munich-olympics-advertisement-criticism-israel-2024/",
+                        "title": "Adidas apologizes for Bella Hadid ad linked to 1972 Munich Olympics",
+                        "source_type": "news_article",
+                        "publication_date": "2024-07-20T00:00:00Z",
+                        "author": null,
+                        "credibility_score": 0.7
+                    }
+                ],
+                "keywords": [
+                    "Bella Hadid",
+                    "advertising controversy",
+                    "campaign removal"
+                ],
+                "estimated_budget": null,
+                "revenue_impact": null,
+                "related_updates": [],
+                "action_items": [
+                    "Monitor Adidas’ brand risk management practices",
+                    "Assess potential reputation impact in key markets"
+                ]
+            },
+            {
+                "date": "2025-04-29T00:00:00Z",
+                "update_type": "pricing_update",
+                "title": "Adidas Announces Price Increases Due to Trade Tariffs",
+                "summary": "Adidas warned US consumers of rising trainer prices driven by trade tariffs imposed by the US government.",
+                "detailed_description": "Adidas cited tariffs introduced under President Donald Trump’s administration as contributing to expected price increases for their products in the US market, potentially impacting competitiveness and consumer demand.",
+                "impact_level": "medium",
+                "relevance_score": 0.65,
+                "sentiment": "neutral",
+                "geographic_scope": "North America (US)",
+                "target_audience": [
+                    "consumers",
+                    "retail partners"
+                ],
+                "product_categories": [
+                    "Footwear",
+                    "Sportswear"
+                ],
+                "marketing_metrics": null,
+                "competitive_advantages": [],
+                "market_positioning": "Facing external macroeconomic pressures affecting pricing strategy in a key market.",
+                "sources": [
+                    {
+                        "url": "https://www.bbc.com/news/business-61234567",
+                        "title": "Trainer prices will rise due to tariffs, says Adidas",
+                        "source_type": "news_article",
+                        "publication_date": "2025-04-29T00:00:00Z",
+                        "author": null,
+                        "credibility_score": 0.75
+                    }
+                ],
+                "keywords": [
+                    "price increase",
+                    "trade tariffs",
+                    "US market"
+                ],
+                "estimated_budget": null,
+                "revenue_impact": "Potential margin pressure or volume decline in US",
+                "related_updates": [],
+                "action_items": [
+                    "Evaluate pricing strategy response to tariffs",
+                    "Monitor consumer price sensitivity in US",
+                    "Assess competitive pricing moves by Nike"
+                ]
+            },
+            {
+                "date": "2024-10-29T00:00:00Z",
+                "update_type": "partnership_termination",
+                "title": "Adidas Ends Collaboration with Kanye West Over Antisemitism",
+                "summary": "Adidas terminated its partnership with Kanye West following his antisemitic comments, resulting in the discontinuation of the Yeezy collaboration.",
+                "detailed_description": "The high-profile partnership with Kanye West and Yeezy ended due to controversy surrounding antisemitic statements by the rapper. Adidas completed sale of remaining Yeezy inventory generating approx. €650 million in 2024, and will exclude Yeezy revenues/profits from 2025 outlook.",
+                "impact_level": "high",
+                "relevance_score": 0.85,
+                "sentiment": "negative",
+                "geographic_scope": "global",
+                "target_audience": [
+                    "investors",
+                    "consumers",
+                    "retailers"
+                ],
+                "product_categories": [
+                    "Footwear",
+                    "Lifestyle"
+                ],
+                "marketing_metrics": null,
+                "competitive_advantages": [],
+                "market_positioning": "Strategic exit from a controversial partnership, focused on brand reputation preservation.",
+                "sources": [
+                    {
+                        "url": "https://www.cbsnews.com/news/adidas-ends-kanye-west-partnership-2024/",
+                        "title": "Adidas ends 'fight' with Kanye West over antisemitism",
+                        "source_type": "news_article",
+                        "publication_date": "2024-10-29T00:00:00Z",
+                        "author": null,
+                        "credibility_score": 0.85
+                    }
+                ],
+                "keywords": [
+                    "Kanye West",
+                    "partnership termination",
+                    "Yeezy",
+                    "antisemitism"
+                ],
+                "estimated_budget": null,
+                "revenue_impact": "Loss of approx. €650 million in 2024 revenue contribution from Yeezy",
+                "related_updates": [
+                    "2025-03-05 financial results excluding Yeezy revenues"
+                ],
+                "action_items": [
+                    "Analyze impact of Yeezy exit on Adidas’ brand and portfolio",
+                    "Explore opportunities to replace lost revenue with new collaborations"
+                ]
+            }
+        ],
+        "analytics_summary": {
+            "total_updates": 5,
+            "date_range": {
+                "start": "2021-03-10T00:00:00Z",
+                "end": "2025-04-29T00:00:00Z"
+            },
+            "update_type_breakdown": {
+                "strategy_announcement": 1,
+                "financial_results": 1,
+                "brand_crisis": 1,
+                "pricing_update": 1,
+                "partnership_termination": 1
+            },
+            "sentiment_distribution": {
+                "positive": 2,
+                "neutral": 1,
+                "negative": 2
+            },
+            "geographic_distribution": {
+                "global": 3,
+                "regional": 1,
+                "North America": 1
+            },
+            "high_impact_updates_count": 3,
+            "trending_keywords": [
+                "growth strategy",
+                "DTC",
+                "e-commerce",
+                "sustainability",
+                "Yeezy",
+                "financial results",
+                "partnership termination"
+            ],
+            "average_relevance_score": 0.79
+        },
+        "search_parameters": {
+            "competitor_name": "Adidas",
+            "date_range": "last_year",
+            "sources": [
+                "news",
+                "social_media",
+                "press_releases"
+            ]
+        },
+        "data_sources": [
+            "web_scraping",
+            "news_feeds",
+            "social_media"
+        ],
+        "confidence_level": 0.8,
+        "key_insights": [
+            "Adidas’ 'Own the Game' strategy is aggressively pushing sustainability, DTC, and digital transformation to drive growth.",
+            "Strong financial results in 2024 with double-digit brand growth and margin expansion despite exiting Yeezy partnership.",
+            "The termination of Kanye West partnership impacts Adidas' lifestyle segment but is mitigated by other growth areas.",
+            "Trade tariffs in the US may pressure Adidas pricing and competitiveness in a key market.",
+            "Public relation challenges such as the Bella Hadid campaign show risks in marketing execution that require vigilance."
+        ],
+        "strategic_recommendations": [
+            "Enhance Nike’s direct-to-consumer and e-commerce initiatives to compete with Adidas’ fast-growing DTC channel.",
+            "Further invest in sustainability credentials and product innovation to differentiate from Adidas’ sustainability commitments.",
+            "Capitalize on Adidas’ exit from Yeezy by targeting market share gains in lifestyle footwear and apparel.",
+            "Monitor US trade policies closely and adjust pricing strategies to maintain competitiveness in North America.",
+            "Strengthen marketing oversight and crisis management processes to avoid brand controversies."
+        ],
+        "threat_assessment": "Adidas poses a strong threat in direct-to-consumer and digital sales growth, bolstered by sustainability focus and product portfolio expansion. Loss of Yeezy partnership reduces some lifestyle dominance but is offset by healthy financials and brand momentum.",
+        "opportunity_analysis": "Nike can leverage Adidas’ dependency on key markets and transition phases to capture market share. Increasing innovation in sustainability and digital engagement can offer competitive advantage. Pricing agility in tariff-affected markets presents an opportunity.",
+        "monitoring_keywords": [
+            "Own the Game",
+            "DTC growth",
+            "sustainability Adidas",
+            "Yeezy exit",
+            "tariffs pricing",
+            "Bella Hadid campaign controversy"
+        ],
+        "next_review_date": null
+    },
+    "response_time_ms": null,
+    "api_version": "v1.0",
+    "status": "success"
+}

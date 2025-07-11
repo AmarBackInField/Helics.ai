@@ -4,7 +4,7 @@ from langchain_openai import ChatOpenAI
 from typing import List
 import requests
 from bs4 import BeautifulSoup
-from langchain.document_loaders import WebBaseLoader
+# from langchain_community.document_loaders import WebBaseLoader
 from langchain.text_splitter import CharacterTextSplitter,RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from langchain_core.messages import HumanMessage
